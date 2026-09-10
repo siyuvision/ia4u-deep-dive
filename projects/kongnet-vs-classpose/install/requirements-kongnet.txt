@@ -1,0 +1,10 @@
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+tiatoolbox==1.6.0
+ttach==0.0.3
+numcodecs==0.11.0
+segmentation-models-pytorch==0.5.0
+timm==1.0.12
+numpy==1.26.4
+openslide-python==1.4.1
+openslide-bin==4.0.1.2

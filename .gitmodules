@@ -1,0 +1,6 @@
+[submodule "projects/kongnet-vs-classpose/vendor/KongNet_Inference_Main"]
+	path = projects/kongnet-vs-classpose/vendor/KongNet_Inference_Main
+	url = https://github.com/Jiaqi-Lv/KongNet_Inference_Main.git
+[submodule "projects/kongnet-vs-classpose/vendor/classpose"]
+	path = projects/kongnet-vs-classpose/vendor/classpose
+	url = https://github.com/sohmandal/classpose.git

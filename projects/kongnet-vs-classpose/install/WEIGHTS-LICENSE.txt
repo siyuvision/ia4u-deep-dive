@@ -1,0 +1,13 @@
+KongNet_CoNIC_1.pth
+来源：https://huggingface.co/TIACentre/KongNet_pretrained_weights
+作者／开发者：Tissue Image Analytics (TIA) Centre, University of Warwick, United Kingdom
+模型卡许可：Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+许可文本：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+许可说明：https://creativecommons.org/licenses/by-nc-sa/4.0/
+该权重按原字节附带，未修改。应保留署名和许可，遵守非商业及适用的相同方式共享要求；
+不能以代码的 BSD-3-Clause 许可推断权重可商用。
+SHA256：498ad0f328dcda96cd4d2314ebe40df1cc8d897af5a3b3e3732e6f78664c6af7
+论文：Lv et al., KongNet: A multi-headed deep learning model for detection and
+classification of nuclei in histopathology images, Medical Image Analysis 114 (2026), 104233.
+DOI：https://doi.org/10.1016/j.media.2026.104233
+KongNet 作者代码使用 BSD-3-Clause，全文随源码保留；本地增加的是运行与格式适配代码。

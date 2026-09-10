@@ -1,0 +1,25 @@
+# Python
+**/.venv*/
+**/__pycache__/
+*.pyc
+*.egg-info/
+
+# Model weights (download via install script)
+weights/
+
+# Inference outputs
+results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vs/
+.vscode/
+.idea/
+
+# Large data
+*.svs
+*.tiff
+*.ndpi
+*.mrxs

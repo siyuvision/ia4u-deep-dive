@@ -1,0 +1,14 @@
+{
+  "profile": "pilot",
+  "seconds": 1053.0948829000008,
+  "model_folder": "results/models/Dataset902_TumSegFewShot/TumSegPretrainedTrainer__TumSeg_nnFoundationCNN_pilot_128__3d_fullres",
+  "fold": "all",
+  "checkpoint": "checkpoint_final.pth",
+  "epochs": 30,
+  "optimizer_steps": 1500,
+  "peak_gpu_allocated_gb": 7.693540096282959,
+  "torch": "2.7.1+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "checkpoint_selection": "fixed final checkpoint; test unused"
+}

@@ -1,0 +1,1512 @@
+{
+  "run": "four_train_three_eval_20260927_v1",
+  "training_cases": [
+    "D10_M16_0d",
+    "D10_M33_0d",
+    "D10_M07_0d",
+    "D10_M19_0d"
+  ],
+  "evaluation_cases": [
+    "D10_M02_0d",
+    "D10_M22_0d",
+    "D10_M11_0d"
+  ],
+  "cases": [
+    {
+      "case": "D10_M02_0d",
+      "role": "development comparison, previously examined animal",
+      "old_two_case_raw": {
+        "dice": 0.5019651551592655,
+        "iou": 0.3350824294161413,
+        "precision": 0.3887425040886789,
+        "recall": 0.7082436682668433,
+        "reference_empty": false,
+        "prediction_empty": false,
+        "reference_voxels": 12082,
+        "predicted_voxels": 22012,
+        "tp": 8557,
+        "fp": 13455,
+        "fn": 3525,
+        "reference_volume_mm3": 111.89139151975462,
+        "predicted_volume_mm3": 203.85311290621078,
+        "absolute_volume_error_mm3": 91.96172138645616,
+        "signed_volume_error_percent": 82.18837940738288,
+        "absolute_volume_error_percent": 82.18837940738288,
+        "hd95_pooled_boundary_voxels_mm": 52.25825666581637,
+        "mean_symmetric_boundary_voxel_distance_mm": 17.692028009108938,
+        "status": "defined; voxel-boundary, not area-weighted NSD",
+        "reference_components_26": 2
+      },
+      "four_case": {
+        "raw": {
+          "dice": 0.5995956425963367,
+          "iou": 0.42815893811411826,
+          "precision": 0.4718145984708173,
+          "recall": 0.8222976328422447,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 12082,
+          "predicted_voxels": 21057,
+          "tp": 9935,
+          "fp": 11122,
+          "fn": 2147,
+          "reference_volume_mm3": 111.89139151975462,
+          "predicted_volume_mm3": 195.00885873460297,
+          "absolute_volume_error_mm3": 83.11746721484835,
+          "signed_volume_error_percent": 74.28405893064063,
+          "absolute_volume_error_percent": 74.28405893064063,
+          "hd95_pooled_boundary_voxels_mm": 52.59567117367355,
+          "mean_symmetric_boundary_voxel_distance_mm": 16.647964230847922,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 10416,
+          "fp_beyond_5mm": 10416,
+          "prediction_components_26": 55
+        },
+        "guarded": {
+          "dice": 0.8744443955463627,
+          "iou": 0.7769002189552706,
+          "precision": 0.9336528521755474,
+          "recall": 0.8222976328422447,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 12082,
+          "predicted_voxels": 10641,
+          "tp": 9935,
+          "fp": 706,
+          "fn": 2147,
+          "reference_volume_mm3": 111.89139151975462,
+          "predicted_volume_mm3": 98.546291769716,
+          "absolute_volume_error_mm3": 13.345099750038603,
+          "signed_volume_error_percent": -11.926833305744083,
+          "absolute_volume_error_percent": 11.926833305744083,
+          "hd95_pooled_boundary_voxels_mm": 0.518371672310762,
+          "mean_symmetric_boundary_voxel_distance_mm": 0.18920052820356745,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 0,
+          "fp_beyond_5mm": 0,
+          "prediction_components_26": 2
+        }
+      },
+      "inference_seconds": 9.057487300000503,
+      "guard_seconds": 1.6008761999983108,
+      "guard": {
+        "method": "ct_body_relative_longitudinal_component_guard_v1",
+        "body": {
+          "z_min": 1,
+          "z_max": 433,
+          "z_length_mm": 90.71999716758728,
+          "body_voxels": 2564293,
+          "body_volume_mm3": 23747.915248664634,
+          "body_bbox_zyx": [
+            [
+              1,
+              434
+            ],
+            [
+              26,
+              160
+            ],
+            [
+              27,
+              147
+            ]
+          ]
+        },
+        "allowed_z_centroid_interval": [
+          66.10088706938362,
+          176.48022673206916
+        ],
+        "components": [
+          {
+            "id": 1,
+            "volume_mm3": 3.6766166556317317,
+            "centroid_z": 10.670025188916876,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 2,
+            "volume_mm3": 53.639706975866474,
+            "centroid_z": 107.09254143646409,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 3,
+            "volume_mm3": 44.90658479384954,
+            "centroid_z": 131.59187461332235,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 4,
+            "volume_mm3": 0.027782997397720895,
+            "centroid_z": 227.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 5,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 230.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 6,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 231.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 7,
+            "volume_mm3": 0.04630499566286816,
+            "centroid_z": 232.2,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 8,
+            "volume_mm3": 0.027782997397720895,
+            "centroid_z": 231.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 9,
+            "volume_mm3": 0.06482699392801541,
+            "centroid_z": 233.71428571428572,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 10,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 233.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 11,
+            "volume_mm3": 0.21300298004919352,
+            "centroid_z": 234.7391304347826,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 12,
+            "volume_mm3": 0.22226397918176716,
+            "centroid_z": 236.83333333333334,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 13,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 234.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 14,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 235.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 15,
+            "volume_mm3": 0.13891498698860447,
+            "centroid_z": 236.46666666666667,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 16,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 235.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 17,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 235.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 18,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 237.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 19,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 240.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 20,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 240.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 21,
+            "volume_mm3": 0.16669798438632538,
+            "centroid_z": 252.44444444444446,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 22,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 249.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 23,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 273.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 24,
+            "volume_mm3": 42.063458060149436,
+            "centroid_z": 287.2556142668428,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 25,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 288.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 26,
+            "volume_mm3": 1.0187099045830994,
+            "centroid_z": 301.4818181818182,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 27,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 298.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 28,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 304.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 29,
+            "volume_mm3": 44.137921865845925,
+            "centroid_z": 378.95383969785985,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 30,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 382.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 31,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 382.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 32,
+            "volume_mm3": 3.8803586365483516,
+            "centroid_z": 386.99522673031026,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 33,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 382.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 34,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 384.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 35,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 385.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 36,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 386.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 37,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 390.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 38,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 392.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 39,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 394.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 40,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 394.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 41,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 399.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 42,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 401.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 43,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 402.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 44,
+            "volume_mm3": 0.037043996530294526,
+            "centroid_z": 403.25,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 45,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 402.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 46,
+            "volume_mm3": 0.3056129713749298,
+            "centroid_z": 403.7878787878788,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 47,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 402.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 48,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 402.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 49,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 404.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 50,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 405.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 51,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 406.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 52,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 408.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 53,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 410.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 54,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 412.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 55,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 416.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          }
+        ],
+        "raw_components": 55,
+        "kept_components": 2,
+        "raw_foreground_voxels": 21057,
+        "retained_foreground_voxels": 10641,
+        "prediction_empty_after": false,
+        "uses_reference_label_at_application": false,
+        "warning": "This prior can remove true ectopic tumors; never claim applicability to other anatomical locations or scan orientations"
+      },
+      "raw_sha256": "dc01d7d160058ae33fa4ab212694d9ba0b87d077e4c9296b252eefca45f07d21",
+      "guarded_sha256": "d59200a674effdbd7739034676bf1b3e6fdb28b94a9190b44b93af106855d3a4",
+      "reference_sha256": "67ebdacc27d40314a6c79ae2f715f6875175b02be6d86bee48fd3798f3bcb235",
+      "tp_removed": 0,
+      "fp_removed": 10416,
+      "far10_removed": 10416,
+      "geometry_verified": true,
+      "nifti_nrrd_identical": true
+    },
+    {
+      "case": "D10_M22_0d",
+      "role": "development comparison, previously examined animal",
+      "old_two_case_raw": {
+        "dice": 0.7083105522143248,
+        "iou": 0.5483597883597884,
+        "precision": 0.6572527797742358,
+        "recall": 0.767969174529467,
+        "reference_empty": false,
+        "prediction_empty": false,
+        "reference_voxels": 20243,
+        "predicted_voxels": 23653,
+        "tp": 15546,
+        "fp": 8107,
+        "fn": 4697,
+        "reference_volume_mm3": 187.470405440688,
+        "predicted_volume_mm3": 219.0504124827641,
+        "absolute_volume_error_mm3": 31.580007042076083,
+        "signed_volume_error_percent": 16.84532924961715,
+        "absolute_volume_error_percent": 16.84532924961715,
+        "hd95_pooled_boundary_voxels_mm": 53.179528441045036,
+        "mean_symmetric_boundary_voxel_distance_mm": 11.530586790048556,
+        "status": "defined; voxel-boundary, not area-weighted NSD",
+        "reference_components_26": 2
+      },
+      "four_case": {
+        "raw": {
+          "dice": 0.7822392895715828,
+          "iou": 0.6423587843430959,
+          "precision": 0.7607132854075249,
+          "recall": 0.8050190189201205,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 20243,
+          "predicted_voxels": 21422,
+          "tp": 16296,
+          "fp": 5126,
+          "fn": 3947,
+          "reference_volume_mm3": 187.470405440688,
+          "predicted_volume_mm3": 198.38912341799232,
+          "absolute_volume_error_mm3": 10.918717977304311,
+          "signed_volume_error_percent": 5.82423553821074,
+          "absolute_volume_error_percent": 5.82423553821074,
+          "hd95_pooled_boundary_voxels_mm": 45.586398851137446,
+          "mean_symmetric_boundary_voxel_distance_mm": 9.426412754555049,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 4499,
+          "fp_beyond_5mm": 4525,
+          "prediction_components_26": 58
+        },
+        "guarded": {
+          "dice": 0.8775444264943457,
+          "iou": 0.7818077144502015,
+          "precision": 0.9644315558974966,
+          "recall": 0.8050190189201205,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 20243,
+          "predicted_voxels": 16897,
+          "tp": 16296,
+          "fp": 601,
+          "fn": 3947,
+          "reference_volume_mm3": 187.470405440688,
+          "predicted_volume_mm3": 156.48310234309665,
+          "absolute_volume_error_mm3": 30.987303097591372,
+          "signed_volume_error_percent": -16.529170577483576,
+          "absolute_volume_error_percent": 16.529170577483576,
+          "hd95_pooled_boundary_voxels_mm": 0.6299999803304672,
+          "mean_symmetric_boundary_voxel_distance_mm": 0.20070391912541075,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 0,
+          "fp_beyond_5mm": 0,
+          "prediction_components_26": 2
+        }
+      },
+      "inference_seconds": 7.289762500004144,
+      "guard_seconds": 1.440567600002396,
+      "guard": {
+        "method": "ct_body_relative_longitudinal_component_guard_v1",
+        "body": {
+          "z_min": 1,
+          "z_max": 418,
+          "z_length_mm": 87.56999726593494,
+          "body_voxels": 2667509,
+          "body_volume_mm3": 24703.798535132355,
+          "body_bbox_zyx": [
+            [
+              1,
+              419
+            ],
+            [
+              31,
+              164
+            ],
+            [
+              29,
+              150
+            ]
+          ]
+        },
+        "allowed_z_centroid_interval": [
+          63.013719999165694,
+          171.2138829064033
+        ],
+        "components": [
+          {
+            "id": 1,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 61.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 2,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 68.5,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 3,
+            "volume_mm3": 0.21300298004919352,
+            "centroid_z": 71.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 4,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 68.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 5,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 68.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 6,
+            "volume_mm3": 0.037043996530294526,
+            "centroid_z": 69.5,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 7,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 68.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 8,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 69.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 9,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 69.5,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 10,
+            "volume_mm3": 0.027782997397720895,
+            "centroid_z": 70.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 11,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 69.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 12,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 69.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 13,
+            "volume_mm3": 0.04630499566286816,
+            "centroid_z": 71.2,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 14,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 70.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 15,
+            "volume_mm3": 0.10187099045830994,
+            "centroid_z": 72.63636363636364,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 16,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 71.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 17,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 71.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 18,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 71.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 19,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 71.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 20,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 72.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 21,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 73.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 22,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 73.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 23,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 76.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 24,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 76.0,
+            "within_position_interval": true,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 25,
+            "volume_mm3": 67.77199165217384,
+            "centroid_z": 100.87865537031976,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 26,
+            "volume_mm3": 88.71111069092282,
+            "centroid_z": 116.25054807391169,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 27,
+            "volume_mm3": 10.326014032819598,
+            "centroid_z": 280.2053811659193,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 28,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 274.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 29,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 276.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 30,
+            "volume_mm3": 0.37043996530294526,
+            "centroid_z": 280.65,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 31,
+            "volume_mm3": 28.468311333531343,
+            "centroid_z": 317.13012361743654,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 32,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 304.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 33,
+            "volume_mm3": 0.08334899219316269,
+            "centroid_z": 304.8888888888889,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 34,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 304.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 35,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 305.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 36,
+            "volume_mm3": 0.027782997397720895,
+            "centroid_z": 307.3333333333333,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 37,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 331.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 38,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 332.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 39,
+            "volume_mm3": 1.5743698525375174,
+            "centroid_z": 380.7176470588235,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 40,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 377.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 41,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 377.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 42,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 379.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 43,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 381.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 44,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 382.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 45,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 384.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 46,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 387.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 47,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 389.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 48,
+            "volume_mm3": 0.05556599479544179,
+            "centroid_z": 393.1666666666667,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 49,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 393.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 50,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 394.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 51,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 395.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 52,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 395.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 53,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 395.5,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 54,
+            "volume_mm3": 0.09260999132573632,
+            "centroid_z": 399.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 55,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 396.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 56,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 398.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 57,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 401.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 58,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 401.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          }
+        ],
+        "raw_components": 58,
+        "kept_components": 2,
+        "raw_foreground_voxels": 21422,
+        "retained_foreground_voxels": 16897,
+        "prediction_empty_after": false,
+        "uses_reference_label_at_application": false,
+        "warning": "This prior can remove true ectopic tumors; never claim applicability to other anatomical locations or scan orientations"
+      },
+      "raw_sha256": "2f1d8b540e7e7005dc5d18a982ba6199069246b28bad07a4b45c042d7629a6e3",
+      "guarded_sha256": "1f334d5c3709a60a9b8d666826b4754b6d2c91bf25a02f4d605ab54856960e14",
+      "reference_sha256": "54b650031b19348d5dc2b6dc5ea962c23c7cc3a62a192472684cf24a25cf8e22",
+      "tp_removed": 0,
+      "fp_removed": 4525,
+      "far10_removed": 4499,
+      "geometry_verified": true,
+      "nifti_nrrd_identical": true
+    },
+    {
+      "case": "D10_M11_0d",
+      "role": "development comparison, previously examined animal",
+      "old_two_case_raw": {
+        "dice": 0.622903183199049,
+        "iou": 0.45233071168233263,
+        "precision": 0.5170769146428376,
+        "recall": 0.7831935564228182,
+        "reference_empty": false,
+        "prediction_empty": false,
+        "reference_voxels": 12043,
+        "predicted_voxels": 18241,
+        "tp": 9432,
+        "fp": 8809,
+        "fn": 2611,
+        "reference_volume_mm3": 111.53021255358425,
+        "predicted_volume_mm3": 168.92988517727562,
+        "absolute_volume_error_mm3": 57.399672623691366,
+        "signed_volume_error_percent": 51.46558166569792,
+        "absolute_volume_error_percent": 51.46558166569792,
+        "hd95_pooled_boundary_voxels_mm": 51.08182394026549,
+        "mean_symmetric_boundary_voxel_distance_mm": 9.656406659466429,
+        "status": "defined; voxel-boundary, not area-weighted NSD",
+        "reference_components_26": 2
+      },
+      "four_case": {
+        "raw": {
+          "dice": 0.7199941558915918,
+          "iou": 0.5624928661111745,
+          "precision": 0.6427127486142811,
+          "recall": 0.8184007307149381,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 12043,
+          "predicted_voxels": 15335,
+          "tp": 9856,
+          "fp": 5479,
+          "fn": 2187,
+          "reference_volume_mm3": 111.53021255358425,
+          "predicted_volume_mm3": 142.01742169801665,
+          "absolute_volume_error_mm3": 30.487209144432395,
+          "signed_volume_error_percent": 27.335381549447813,
+          "absolute_volume_error_percent": 27.335381549447813,
+          "hd95_pooled_boundary_voxels_mm": 51.1853175699174,
+          "mean_symmetric_boundary_voxel_distance_mm": 10.520471692254718,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 3727,
+          "fp_beyond_5mm": 3727,
+          "prediction_components_26": 24
+        },
+        "guarded": {
+          "dice": 0.8334531309458374,
+          "iou": 0.7144617615077927,
+          "precision": 0.8490696071674707,
+          "recall": 0.8184007307149381,
+          "reference_empty": false,
+          "prediction_empty": false,
+          "reference_voxels": 12043,
+          "predicted_voxels": 11608,
+          "tp": 9856,
+          "fp": 1752,
+          "fn": 2187,
+          "reference_volume_mm3": 111.53021255358425,
+          "predicted_volume_mm3": 107.50167793091471,
+          "absolute_volume_error_mm3": 4.02853462266953,
+          "signed_volume_error_percent": -3.6120567964792825,
+          "absolute_volume_error_percent": 3.6120567964792825,
+          "hd95_pooled_boundary_voxels_mm": 0.7857480266903102,
+          "mean_symmetric_boundary_voxel_distance_mm": 0.23521684365764464,
+          "status": "defined; voxel-boundary, not area-weighted NSD",
+          "fp_beyond_10mm": 0,
+          "fp_beyond_5mm": 0,
+          "prediction_components_26": 2
+        }
+      },
+      "inference_seconds": 7.221542300001602,
+      "guard_seconds": 1.4837068000051659,
+      "guard": {
+        "method": "ct_body_relative_longitudinal_component_guard_v1",
+        "body": {
+          "z_min": 0,
+          "z_max": 397,
+          "z_length_mm": 83.36999739706516,
+          "body_voxels": 2309306,
+          "body_volume_mm3": 21386.480862847082,
+          "body_bbox_zyx": [
+            [
+              0,
+              398
+            ],
+            [
+              30,
+              162
+            ],
+            [
+              29,
+              142
+            ]
+          ]
+        },
+        "allowed_z_centroid_interval": [
+          57.89749723887514,
+          163.19209113884884
+        ],
+        "components": [
+          {
+            "id": 1,
+            "volume_mm3": 3.296915691196213,
+            "centroid_z": 10.429775280898877,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 2,
+            "volume_mm3": 45.684508720985725,
+            "centroid_z": 93.45773363065072,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 3,
+            "volume_mm3": 61.81716920992899,
+            "centroid_z": 110.21393258426966,
+            "within_position_interval": true,
+            "above_volume_floor": true,
+            "kept": true
+          },
+          {
+            "id": 4,
+            "volume_mm3": 12.289345848925208,
+            "centroid_z": 302.64732479276563,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 5,
+            "volume_mm3": 0.037043996530294526,
+            "centroid_z": 297.25,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 6,
+            "volume_mm3": 0.3056129713749298,
+            "centroid_z": 299.6666666666667,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 7,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 298.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 8,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 298.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 9,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 299.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 10,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 307.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 11,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 313.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 12,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 315.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 13,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 315.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 14,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 318.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 15,
+            "volume_mm3": 18.299734285965496,
+            "centroid_z": 357.8663967611336,
+            "within_position_interval": false,
+            "above_volume_floor": true,
+            "kept": false
+          },
+          {
+            "id": 16,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 353.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 17,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 354.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 18,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 354.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 19,
+            "volume_mm3": 0.12039298872345722,
+            "centroid_z": 357.2307692307692,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 20,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 359.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 21,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 359.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 22,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 360.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 23,
+            "volume_mm3": 0.018521998265147263,
+            "centroid_z": 360.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          },
+          {
+            "id": 24,
+            "volume_mm3": 0.009260999132573632,
+            "centroid_z": 362.0,
+            "within_position_interval": false,
+            "above_volume_floor": false,
+            "kept": false
+          }
+        ],
+        "raw_components": 24,
+        "kept_components": 2,
+        "raw_foreground_voxels": 15335,
+        "retained_foreground_voxels": 11608,
+        "prediction_empty_after": false,
+        "uses_reference_label_at_application": false,
+        "warning": "This prior can remove true ectopic tumors; never claim applicability to other anatomical locations or scan orientations"
+      },
+      "raw_sha256": "b188319b997c665ff351f9d2384e712c58a1c77b05db1cd2650f806a4cd131b4",
+      "guarded_sha256": "5d1ea8d4ed0480a08a48b245b95925329f7c414ba6eb64ffa18e4e626d31f932",
+      "reference_sha256": "8d39f0eddca8831fd3715d648dd59e69d38b10dfceb63989fe50c82eea894549",
+      "tp_removed": 0,
+      "fp_removed": 3727,
+      "far10_removed": 3727,
+      "geometry_verified": true,
+      "nifti_nrrd_identical": true
+    }
+  ],
+  "macro": {
+    "two_case_raw": {
+      "dice": 0.6110596301908798,
+      "iou": 0.4452576431527541,
+      "precision": 0.5210240661685841,
+      "recall": 0.7531354664063762,
+      "absolute_volume_error_percent": 50.166430107565986
+    },
+    "four_case_raw": {
+      "dice": 0.700609696019837,
+      "iou": 0.5443368628561296,
+      "precision": 0.6250802108308745,
+      "recall": 0.8152391274924344,
+      "absolute_volume_error_percent": 35.814558672766395
+    },
+    "four_case_guarded": {
+      "dice": 0.8618139843288485,
+      "iou": 0.757723231637755,
+      "precision": 0.9157180050801715,
+      "recall": 0.8152391274924344,
+      "absolute_volume_error_percent": 10.689353559902314
+    }
+  },
+  "checkpoint": "results/models/Dataset903_TumSegFourShot/TumSegPretrainedTrainer__TumSegFourShot_30ep_128__3d_fullres/fold_all/checkpoint_final.pth",
+  "checkpoint_sha256": "fffadfa1061a3bf79056c0c80c6829654f342a96582993a4f9956512860cbe75",
+  "spatial_prior_sha256": "57dab3acddf3a79b71c4dfd31d16924e3e6d6c0ee5877c12d8ee7b00669cf4fd",
+  "original_test_metrics_unchanged": true,
+  "interpretation": "Development comparison on three reused individuals; not independent new test performance. Same 30x50 training budget; spatial prior fits four training cases only.",
+  "warning": "Position prior is only validated for the standardized flank-tumor cohort; ectopic lesions may be removed",
+  "prediction_device": "cuda",
+  "peak_gpu_allocated_gb": 2.258939266204834
+}

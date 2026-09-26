@@ -9,6 +9,7 @@
 | 项目 | 说明 | 状态 |
 |------|------|------|
 | [kongnet-vs-classpose](projects/kongnet-vs-classpose/) | KongNet 与 ClassPose 病理核检测对比：Windows 整片推理 + QuPath 回显 | ✅ 可用 |
+| [nnfoundation-tumseg-ct](projects/nnfoundation-tumseg-ct/) | nnFoundation 小鼠肿瘤 CT：两例微调、四例开发性复测、远端清理及完整证据 | ✅ 代码与结果 |
 
 ## 快速开始
 

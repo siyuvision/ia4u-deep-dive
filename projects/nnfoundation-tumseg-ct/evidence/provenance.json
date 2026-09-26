@@ -1,0 +1,65 @@
+[
+  {
+    "source": "experiments/protocol.json",
+    "original_sha256": "eca46fee785299f45ba280dd5b947dc0a21cc8bb989f4ac3bee253ae2ae8de41",
+    "published_file": "evidence/two-shot-protocol.json",
+    "published_sha256": "108471aa1301ff928b154e32e740a0a94b536fc8bf93b8265310168efa557927",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "results/pilot/metrics.json",
+    "original_sha256": "34cf6a343230d6c3d0dd455858b4de4ad2eec33b3baea87fd0e0ab769a7d3ac6",
+    "published_file": "evidence/two-shot-metrics.json",
+    "published_sha256": "6598d59611fd0fba3e30f64dd3cfcd9ef70bd66c0e240b8d819c98fc752eab68",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/training-pilot.json",
+    "original_sha256": "a901d89b719cd38db2ffeb416cc2b2536663ca4b5a718cff9acb8b49e7f54f86",
+    "published_file": "evidence/two-shot-training.json",
+    "published_sha256": "c67ac03c58b67dcc1172ee6aee0f8786b33300cc557ba75d308fe353ba208af7",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/visual-diagnosis.json",
+    "original_sha256": "ba5b559b579a61699ec50405cd1b82f5c6a84992c840b4e65b36c294dcbba0ac",
+    "published_file": "evidence/diagnosis.json",
+    "published_sha256": "d0edd30317d0105bbacaffb24a733b07a6b4c60a9df3a556bc0ea9ac43acf9d8",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/four_train_three_eval_20260927_v1/protocol.json",
+    "original_sha256": "63c13b396cc095cde0aea8a131dfc12a844479b11ab44fdf105032911b33cbf0",
+    "published_file": "evidence/four-shot-protocol.json",
+    "published_sha256": "f1e7916680ea892da2d7ab678307b138bb4dee7fe995027d117d0b42c64b7c7f",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/four_train_three_eval_20260927_v1/spatial-prior.json",
+    "original_sha256": "57dab3acddf3a79b71c4dfd31d16924e3e6d6c0ee5877c12d8ee7b00669cf4fd",
+    "published_file": "evidence/spatial-prior.json",
+    "published_sha256": "58c6acff9ad08cc4c0d9bc8768d6a656f6808cccc88fb51a0def65f86a6a24fe",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/four_train_three_eval_20260927_v1/training.json",
+    "original_sha256": "f75ec14ad06ea49ae17c98f5fbffc9d0469eab1a0af17c9f28662123fb78b21c",
+    "published_file": "evidence/four-shot-training.json",
+    "published_sha256": "2a75d7eba382486098704cb51ce71c81ba2c6bb18e90b2ef5b98a58c15a3940b",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "experiments/four_train_three_eval_20260927_v1/component-retention-check.json",
+    "original_sha256": "b14a2a77404e901c2a23faebb10cbca53a777017cd435e0ac73ee6c65453e903",
+    "published_file": "evidence/component-retention-check.json",
+    "published_sha256": "21aa86242176a0287065af6ca73930471954a3fae1119eacc10b108f4d7cfa08",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  },
+  {
+    "source": "results/four_train_three_eval_20260927_v1/summary.json",
+    "original_sha256": "9e015ee309f2c7bbec32e3625e81d673f91fc0e4dbdc2562862cb2143963cec6",
+    "published_file": "evidence/four-shot-summary.json",
+    "published_sha256": "29acab1363411007d852fff174352faa7ca93747932a91699fe15517aac92202",
+    "change": "machine-specific paths replaced; metrics and case selection unchanged"
+  }
+]

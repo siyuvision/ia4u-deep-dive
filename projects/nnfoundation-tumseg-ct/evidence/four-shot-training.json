@@ -1,0 +1,11 @@
+{
+  "model_folder": "results/models/Dataset903_TumSegFourShot/TumSegPretrainedTrainer__TumSegFourShot_30ep_128__3d_fullres",
+  "seconds": 715.4072701999976,
+  "epochs": 30,
+  "iterations": 1500,
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "torch": "2.7.1+cu126",
+  "cuda": "12.6",
+  "peak_gpu_allocated_gb": 7.693540096282959,
+  "initialization_sha256": "ac262d3e8c226c79f9567fddc34d38e011284730ddf2294b5c6c319ce2f22bbd"
+}

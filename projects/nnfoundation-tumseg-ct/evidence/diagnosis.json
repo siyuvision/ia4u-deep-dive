@@ -1,0 +1,249 @@
+{
+  "brand": "思语视觉",
+  "analysis": "read-only diagnostic of already-evaluated predictions",
+  "training_cases": [
+    {
+      "case": "D10_M16_0d",
+      "total_volume_mm3": 194.45319878664853,
+      "component_volumes_mm3": [
+        123.56951142592996,
+        70.88368736071858
+      ],
+      "foreground_fraction": 0.0012275432718211207
+    },
+    {
+      "case": "D10_M33_0d",
+      "total_volume_mm3": 195.36077670164076,
+      "component_volumes_mm3": [
+        142.91573861387627,
+        52.44503808776447
+      ],
+      "foreground_fraction": 0.001233272625568726
+    }
+  ],
+  "test_cases": [
+    {
+      "case": "D10_M07_0d",
+      "whole_volume_dice": 0.31117781589479704,
+      "reference_volume_mm3": 54.06571293596486,
+      "reference_fraction": 0.00034130578753591953,
+      "predicted_volume_mm3": 205.09408678997565,
+      "tp": 4354,
+      "fp": 17792,
+      "fn": 1484,
+      "fp_to_fn_ratio": 11.98921832884097,
+      "tp_volume_mm3": 40.32239022322559,
+      "fp_volume_mm3": 164.77169656675005,
+      "fn_volume_mm3": 13.74332271273927,
+      "precision": 0.19660435293055178,
+      "recall": 0.7458033573141487,
+      "max_reference_axial_index": 140,
+      "max_reference_axial_dice": 0.9380530973451328,
+      "annotator_pairwise_dice": {
+        "Annotator_A_vs_Annotator_B": 0.8421533680650763,
+        "Annotator_A_vs_Annotator_C": 0.897087054502963,
+        "Annotator_B_vs_Annotator_C": 0.8011240029006527
+      },
+      "mean_annotator_pairwise_dice": 0.8467881418228974,
+      "annotator_volumes_mm3": {
+        "Annotator_A": 55.056639843150236,
+        "Annotator_B": 46.267951666337865,
+        "Annotator_C": 55.89939076421444
+      },
+      "prediction_dice_vs_each_annotator": {
+        "Annotator_A": 0.3144067494927201,
+        "Annotator_B": 0.2810404539090708,
+        "Annotator_C": 0.30700447093889716
+      },
+      "prediction_components": 27,
+      "unmatched_prediction_components": 26,
+      "fp_in_components_with_no_reference_overlap": 17700,
+      "unmatched_component_fraction_of_all_fp": 0.9948291366906474,
+      "fp_more_than_5mm_from_reference": 17700,
+      "fp_more_than_10mm_from_reference": 17700,
+      "far5_fraction_of_all_fp": 0.9948291366906474,
+      "far10_fraction_of_all_fp": 0.9948291366906474,
+      "prediction_sha256": "d2d2a6a1cfe9a69fc1d3cbaa2bdca165dcd1dcee062a5970c72ce6c6a02d3835",
+      "prediction_unchanged": true
+    },
+    {
+      "case": "D10_M19_0d",
+      "whole_volume_dice": 0.7327122683315935,
+      "reference_volume_mm3": 230.17287244098503,
+      "reference_fraction": 0.0014530342657447317,
+      "predicted_volume_mm3": 240.03583651717597,
+      "tp": 18601,
+      "fp": 7318,
+      "fn": 6253,
+      "fp_to_fn_ratio": 1.1703182472413243,
+      "tp_volume_mm3": 172.2638448650021,
+      "fp_volume_mm3": 67.77199165217384,
+      "fn_volume_mm3": 57.90902757598292,
+      "precision": 0.717658860295536,
+      "recall": 0.7484107185966041,
+      "max_reference_axial_index": 109,
+      "max_reference_axial_dice": 0.8429184549356223,
+      "annotator_pairwise_dice": {
+        "Annotator_A_vs_Annotator_B": 0.8852366792574138,
+        "Annotator_A_vs_Annotator_C": 0.9254613694261323,
+        "Annotator_B_vs_Annotator_C": 0.8942774821762813
+      },
+      "mean_annotator_pairwise_dice": 0.9016585102866091,
+      "annotator_volumes_mm3": {
+        "Annotator_A": 248.40777973302252,
+        "Annotator_B": 212.53066909343227,
+        "Annotator_C": 227.82057866131134
+      },
+      "prediction_dice_vs_each_annotator": {
+        "Annotator_A": 0.7052064768116492,
+        "Annotator_B": 0.7327903740689203,
+        "Annotator_C": 0.7315267523110117
+      },
+      "prediction_components": 33,
+      "unmatched_prediction_components": 30,
+      "fp_in_components_with_no_reference_overlap": 6549,
+      "unmatched_component_fraction_of_all_fp": 0.8949166438917737,
+      "fp_more_than_5mm_from_reference": 6549,
+      "fp_more_than_10mm_from_reference": 6548,
+      "far5_fraction_of_all_fp": 0.8949166438917737,
+      "far10_fraction_of_all_fp": 0.8947799945340257,
+      "prediction_sha256": "00123049af60ae904adbdd05c6cb6b519c516590e8b44c2163700005d58af950",
+      "prediction_unchanged": true
+    },
+    {
+      "case": "D10_M02_0d",
+      "whole_volume_dice": 0.5019651551592655,
+      "reference_volume_mm3": 111.89139151975462,
+      "reference_fraction": 0.0007063474691690613,
+      "predicted_volume_mm3": 203.85311290621078,
+      "tp": 8557,
+      "fp": 13455,
+      "fn": 3525,
+      "fp_to_fn_ratio": 3.8170212765957445,
+      "tp_volume_mm3": 79.24636957743256,
+      "fp_volume_mm3": 124.60674332877821,
+      "fn_volume_mm3": 32.64502194232205,
+      "precision": 0.3887425040886789,
+      "recall": 0.7082436682668433,
+      "max_reference_axial_index": 108,
+      "max_reference_axial_dice": 0.8882758620689655,
+      "annotator_pairwise_dice": {
+        "Annotator_A_vs_Annotator_B": 0.8737848012245066,
+        "Annotator_A_vs_Annotator_C": 0.8524780856632462,
+        "Annotator_B_vs_Annotator_C": 0.8480122599837735
+      },
+      "mean_annotator_pairwise_dice": 0.858091715623842,
+      "annotator_volumes_mm3": {
+        "Annotator_A": 120.66155769830185,
+        "Annotator_B": 103.20457433340054,
+        "Annotator_C": 102.25995242187804
+      },
+      "prediction_dice_vs_each_annotator": {
+        "Annotator_A": 0.4826346280071916,
+        "Annotator_B": 0.4997587163710942,
+        "Annotator_C": 0.5007563381133903
+      },
+      "prediction_components": 24,
+      "unmatched_prediction_components": 22,
+      "fp_in_components_with_no_reference_overlap": 13276,
+      "unmatched_component_fraction_of_all_fp": 0.9866963953920476,
+      "fp_more_than_5mm_from_reference": 13276,
+      "fp_more_than_10mm_from_reference": 13276,
+      "far5_fraction_of_all_fp": 0.9866963953920476,
+      "far10_fraction_of_all_fp": 0.9866963953920476,
+      "prediction_sha256": "439ec1598da2ff07d93c0b7c53fead11f410eba7c109450ab9cc69777ae18a5e",
+      "prediction_unchanged": true
+    },
+    {
+      "case": "D10_M22_0d",
+      "whole_volume_dice": 0.7083105522143248,
+      "reference_volume_mm3": 187.470405440688,
+      "reference_fraction": 0.0011834623256405652,
+      "predicted_volume_mm3": 219.0504124827641,
+      "tp": 15546,
+      "fp": 8107,
+      "fn": 4697,
+      "fp_to_fn_ratio": 1.7259953161592505,
+      "tp_volume_mm3": 143.97149251498968,
+      "fp_volume_mm3": 75.07891996777443,
+      "fn_volume_mm3": 43.49891292569835,
+      "precision": 0.6572527797742358,
+      "recall": 0.767969174529467,
+      "max_reference_axial_index": 105,
+      "max_reference_axial_dice": 0.9047619047619048,
+      "annotator_pairwise_dice": {
+        "Annotator_A_vs_Annotator_B": 0.8796381037052532,
+        "Annotator_A_vs_Annotator_C": 0.8953386520205487,
+        "Annotator_B_vs_Annotator_C": 0.8782812655953688
+      },
+      "mean_annotator_pairwise_dice": 0.8844193404403903,
+      "annotator_volumes_mm3": {
+        "Annotator_A": 187.10922647451764,
+        "Annotator_B": 167.05916335249574,
+        "Annotator_C": 204.0846378845251
+      },
+      "prediction_dice_vs_each_annotator": {
+        "Annotator_A": 0.7057026244385161,
+        "Annotator_B": 0.6871821932265183,
+        "Annotator_C": 0.6838695557014665
+      },
+      "prediction_components": 28,
+      "unmatched_prediction_components": 26,
+      "fp_in_components_with_no_reference_overlap": 7879,
+      "unmatched_component_fraction_of_all_fp": 0.9718761564080425,
+      "fp_more_than_5mm_from_reference": 7879,
+      "fp_more_than_10mm_from_reference": 7879,
+      "far5_fraction_of_all_fp": 0.9718761564080425,
+      "far10_fraction_of_all_fp": 0.9718761564080425,
+      "prediction_sha256": "b3d38fa1717c76f3a0b924a64087519bc48cdf4ff3abda4e249fb6d90e2c131c",
+      "prediction_unchanged": true
+    },
+    {
+      "case": "D10_M11_0d",
+      "whole_volume_dice": 0.622903183199049,
+      "reference_volume_mm3": 111.53021255358425,
+      "reference_fraction": 0.0007040674202286877,
+      "predicted_volume_mm3": 168.92988517727562,
+      "tp": 9432,
+      "fp": 8809,
+      "fn": 2611,
+      "fp_to_fn_ratio": 3.373803140559173,
+      "tp_volume_mm3": 87.34974381843449,
+      "fp_volume_mm3": 81.58014135884112,
+      "fn_volume_mm3": 24.180468735149752,
+      "precision": 0.5170769146428376,
+      "recall": 0.7831935564228182,
+      "max_reference_axial_index": 98,
+      "max_reference_axial_dice": 0.8436516264428122,
+      "annotator_pairwise_dice": {
+        "Annotator_A_vs_Annotator_B": 0.818577648766328,
+        "Annotator_A_vs_Annotator_C": 0.7725641025641026,
+        "Annotator_B_vs_Annotator_C": 0.8971531753044681
+      },
+      "mean_annotator_pairwise_dice": 0.8294316422116329,
+      "annotator_volumes_mm3": {
+        "Annotator_A": 86.72925687655206,
+        "Annotator_B": 111.07642359608813,
+        "Annotator_C": 129.9781228256709
+      },
+      "prediction_dice_vs_each_annotator": {
+        "Annotator_A": 0.5129319713105847,
+        "Annotator_B": 0.6264263271043493,
+        "Annotator_C": 0.6547279712479861
+      },
+      "prediction_components": 23,
+      "unmatched_prediction_components": 21,
+      "fp_in_components_with_no_reference_overlap": 6491,
+      "unmatched_component_fraction_of_all_fp": 0.7368600295152685,
+      "fp_more_than_5mm_from_reference": 6336,
+      "fp_more_than_10mm_from_reference": 4329,
+      "far5_fraction_of_all_fp": 0.7192643886933817,
+      "far10_fraction_of_all_fp": 0.49142922011579065,
+      "prediction_sha256": "225fa7d2ad8c5d85d5900fa3cc36a4cd94fe641a80019f2f85bbb3c25a5871a6",
+      "prediction_unchanged": true
+    }
+  ],
+  "distance_definition": "Euclidean physical distance to any reference foreground voxel, used only to describe errors; 5/10mm are diagnostic cutoffs, not postprocessing rules",
+  "component_definition": "A component with zero reference overlap is diagnostic unmatched foreground; no mask is filtered or exported",
+  "limitations": "Pairwise annotator agreement does not establish pathological truth; target slice was selected using reference and is not a blinded detectability study; causal effects of sample count, training budget or pretraining need controlled comparisons"
+}

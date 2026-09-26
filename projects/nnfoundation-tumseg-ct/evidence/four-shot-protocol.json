@@ -1,0 +1,109 @@
+{
+  "run": "four_train_three_eval_20260927_v1",
+  "frozen_at": "2026-09-27T05:29:45.202435+08:00",
+  "dataset": "Dataset903_TumSegFourShot",
+  "training_cases": [
+    "D10_M16_0d",
+    "D10_M33_0d",
+    "D10_M07_0d",
+    "D10_M19_0d"
+  ],
+  "evaluation_cases": [
+    "D10_M02_0d",
+    "D10_M22_0d",
+    "D10_M11_0d"
+  ],
+  "evaluation_role": "development comparison: all seven individuals and previous predictions were already inspected",
+  "split_choice": "user explicitly chose reuse of the current seven mice, four train / three evaluate; first four in original seeded order become training",
+  "initialization": "$MODEL_CACHE/nnfoundation/nnFoundationCNN.pth",
+  "initialization_sha256": "ac262d3e8c226c79f9567fddc34d38e011284730ddf2294b5c6c319ce2f22bbd",
+  "seed": 20260926,
+  "epochs": 30,
+  "iterations_per_epoch": 50,
+  "optimizer_steps": 1500,
+  "batch_size": 2,
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "initial_learning_rate": 0.001,
+  "warmup_epochs": 3,
+  "checkpoint_selection": "fixed final checkpoint; no evaluation-driven checkpoint choice",
+  "reference": "unchanged STAPLE consensus",
+  "postprocessing_prior": "experiments\\four_train_three_eval_20260927_v1\\spatial-prior.json",
+  "postprocessing_prior_sha256": "57dab3acddf3a79b71c4dfd31d16924e3e6d6c0ee5877c12d8ee7b00669cf4fd",
+  "postprocessing_fitted_only_on": [
+    "D10_M16_0d",
+    "D10_M33_0d",
+    "D10_M07_0d",
+    "D10_M19_0d"
+  ],
+  "fixed_guard_constants": {
+    "soft_tissue_hu": [
+      -250,
+      300
+    ],
+    "opening_radius_mm": 0.42,
+    "position_margin_mm": 5.0,
+    "minimum_volume_fraction": 0.1
+  },
+  "comparisons": [
+    "original two-case model raw predictions on the same three evaluation individuals",
+    "new four-case raw predictions",
+    "new four-case plus fixed spatial guard"
+  ],
+  "no_test_label_at_postprocess_application": true,
+  "guard_limit": "cohort-specific position prior; possible loss of ectopic or unusually tiny tumors; not a universal tumor postprocessor",
+  "data": [
+    {
+      "case": "D10_M16_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTr\\D10_M16_0d_0000.nii.gz",
+      "image_sha256": "e6cd9e6a4adee8ea4e663a3f94d7b4edcd9e3c1fd706e154398c9c9d8863a1ca",
+      "reference": "data\\nnUNet_raw\\Dataset902_TumSegFewShot\\labelsTr\\D10_M16_0d.nii.gz",
+      "reference_sha256": "9126a6de4d39542deeb084011b662ce5812c7c85a4367db59d14bd2bfac47a92"
+    },
+    {
+      "case": "D10_M33_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTr\\D10_M33_0d_0000.nii.gz",
+      "image_sha256": "4ebf74333f61c6785a4aaa6697c563df58ccbfd309531cef6c74126490875d52",
+      "reference": "data\\nnUNet_raw\\Dataset902_TumSegFewShot\\labelsTr\\D10_M33_0d.nii.gz",
+      "reference_sha256": "2cc8d9b3c00781499c34f3b4e4f457dadcaa161e74e453e6d24c860abea85a3c"
+    },
+    {
+      "case": "D10_M07_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTr\\D10_M07_0d_0000.nii.gz",
+      "image_sha256": "86498381e58d0aa5c99ebe7404f2cf6c0823f1b3c2a3db1b29874f9a3faba7c3",
+      "reference": "data\\test_reference\\STAPLE\\D10_M07_0d.nii.gz",
+      "reference_sha256": "0da38797fef562b3d00b800de4727427abe463778129949390cafdda934d157e"
+    },
+    {
+      "case": "D10_M19_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTr\\D10_M19_0d_0000.nii.gz",
+      "image_sha256": "7eb718bc21eae836f29d507aef267fef8c5449bbe33da9e909f806d6468b251c",
+      "reference": "data\\test_reference\\STAPLE\\D10_M19_0d.nii.gz",
+      "reference_sha256": "8641d158c26213ccd79208a567f445f5233ca91495ab445d8c3bc9aeafb514f1"
+    },
+    {
+      "case": "D10_M02_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTs\\D10_M02_0d_0000.nii.gz",
+      "image_sha256": "95e4da46a7b870a27ce3dab7e051a6db10da73b08fe7ea020db765059be88250",
+      "reference": "data\\test_reference\\STAPLE\\D10_M02_0d.nii.gz",
+      "reference_sha256": "67ebdacc27d40314a6c79ae2f715f6875175b02be6d86bee48fd3798f3bcb235"
+    },
+    {
+      "case": "D10_M22_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTs\\D10_M22_0d_0000.nii.gz",
+      "image_sha256": "c49aaed48d7fbda321dcd1a3a93504679c2291ced5d9e405cc9bf4a05a901c2c",
+      "reference": "data\\test_reference\\STAPLE\\D10_M22_0d.nii.gz",
+      "reference_sha256": "54b650031b19348d5dc2b6dc5ea962c23c7cc3a62a192472684cf24a25cf8e22"
+    },
+    {
+      "case": "D10_M11_0d",
+      "image": "data\\nnUNet_raw\\Dataset903_TumSegFourShot\\imagesTs\\D10_M11_0d_0000.nii.gz",
+      "image_sha256": "f84f438ff0236a35a8df687703d033142461889efef7a6459f90f7839c87d0e0",
+      "reference": "data\\test_reference\\STAPLE\\D10_M11_0d.nii.gz",
+      "reference_sha256": "8d39f0eddca8831fd3715d648dd59e69d38b10dfceb63989fe50c82eea894549"
+    }
+  ]
+}

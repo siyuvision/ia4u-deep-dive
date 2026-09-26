@@ -1,0 +1,16 @@
+data/
+experiments/
+results/
+repo/vendor/
+repo/.venv/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.nii
+*.nii.gz
+*.nrrd
+*.mrb
+*.zip
+.env*
+*.log

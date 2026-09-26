@@ -1,0 +1,50 @@
+[
+  {
+    "case": "D10_M02_0d",
+    "reference_components": 2,
+    "retained_prediction_components": 2,
+    "overlap_matrix": [
+      [
+        5181,
+        0
+      ],
+      [
+        0,
+        4754
+      ]
+    ],
+    "every_reference_component_has_prediction_overlap": true
+  },
+  {
+    "case": "D10_M22_0d",
+    "reference_components": 2,
+    "retained_prediction_components": 2,
+    "overlap_matrix": [
+      [
+        7018,
+        0
+      ],
+      [
+        0,
+        9278
+      ]
+    ],
+    "every_reference_component_has_prediction_overlap": true
+  },
+  {
+    "case": "D10_M11_0d",
+    "reference_components": 2,
+    "retained_prediction_components": 2,
+    "overlap_matrix": [
+      [
+        4463,
+        0
+      ],
+      [
+        0,
+        5393
+      ]
+    ],
+    "every_reference_component_has_prediction_overlap": true
+  }
+]

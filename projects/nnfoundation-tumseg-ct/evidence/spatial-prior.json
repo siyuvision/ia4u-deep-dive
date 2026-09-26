@@ -1,0 +1,264 @@
+{
+  "method": "ct_body_relative_longitudinal_component_guard_v1",
+  "trained_on": [
+    "D10_M16_0d",
+    "D10_M33_0d",
+    "D10_M07_0d",
+    "D10_M19_0d"
+  ],
+  "z_min_relative": 0.20581113801452786,
+  "z_max_relative": 0.35108958837772397,
+  "margin_mm": 5.0,
+  "min_component_volume_mm3": 5.2445038087764475,
+  "min_volume_fraction": 0.1,
+  "expected_direction": [
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "training_records": [
+    {
+      "case": "D10_M16_0d",
+      "body": {
+        "z_min": 2,
+        "z_max": 412,
+        "z_length_mm": 86.09999731183052,
+        "body_voxels": 2446948,
+        "body_volume_mm3": 22661.18330545278,
+        "body_bbox_zyx": [
+          [
+            2,
+            413
+          ],
+          [
+            30,
+            165
+          ],
+          [
+            32,
+            152
+          ]
+        ]
+      },
+      "target_z_min": 97,
+      "target_z_max": 144,
+      "target_relative_z_min": 0.23170731707317074,
+      "target_relative_z_max": 0.3463414634146341,
+      "component_volumes_mm3": [
+        70.88368736071858,
+        123.56951142592996
+      ]
+    },
+    {
+      "case": "D10_M33_0d",
+      "body": {
+        "z_min": 0,
+        "z_max": 429,
+        "z_length_mm": 90.08999718725681,
+        "body_voxels": 2319854,
+        "body_volume_mm3": 21484.16588169747,
+        "body_bbox_zyx": [
+          [
+            0,
+            430
+          ],
+          [
+            35,
+            166
+          ],
+          [
+            41,
+            148
+          ]
+        ]
+      },
+      "target_z_min": 95,
+      "target_z_max": 137,
+      "target_relative_z_min": 0.22144522144522144,
+      "target_relative_z_max": 0.31934731934731936,
+      "component_volumes_mm3": [
+        142.91573861387627,
+        52.44503808776447
+      ]
+    },
+    {
+      "case": "D10_M07_0d",
+      "body": {
+        "z_min": 1,
+        "z_max": 438,
+        "z_length_mm": 91.76999713480473,
+        "body_voxels": 2612206,
+        "body_volume_mm3": 24191.637500103636,
+        "body_bbox_zyx": [
+          [
+            1,
+            439
+          ],
+          [
+            31,
+            168
+          ],
+          [
+            35,
+            152
+          ]
+        ]
+      },
+      "target_z_min": 125,
+      "target_z_max": 151,
+      "target_relative_z_min": 0.2837528604118993,
+      "target_relative_z_max": 0.34324942791762014,
+      "component_volumes_mm3": [
+        54.06571293596486
+      ]
+    },
+    {
+      "case": "D10_M19_0d",
+      "body": {
+        "z_min": 1,
+        "z_max": 414,
+        "z_length_mm": 86.72999729216099,
+        "body_voxels": 2371447,
+        "body_volume_mm3": 21961.968609944342,
+        "body_bbox_zyx": [
+          [
+            1,
+            415
+          ],
+          [
+            31,
+            166
+          ],
+          [
+            37,
+            150
+          ]
+        ]
+      },
+      "target_z_min": 86,
+      "target_z_max": 146,
+      "target_relative_z_min": 0.20581113801452786,
+      "target_relative_z_max": 0.35108958837772397,
+      "component_volumes_mm3": [
+        174.16234968717973,
+        56.010522753805326
+      ]
+    }
+  ],
+  "applicability": "Dataset 10 baseline, standardized single-mouse orientation and subcutaneous flank tumors only",
+  "decision": "Keep whole predicted components whose centroid is in the train-derived body-relative longitudinal interval and volume exceeds the conservative training-derived floor; no top-K restriction",
+  "uses_test_labels": false,
+  "training_annotation_leave_one_out": [
+    {
+      "case": "D10_M16_0d",
+      "target_retention": 1.0,
+      "kept_components": 2,
+      "body": {
+        "z_min": 2,
+        "z_max": 412,
+        "z_length_mm": 86.09999731183052,
+        "body_voxels": 2446948,
+        "body_volume_mm3": 22661.18330545278,
+        "body_bbox_zyx": [
+          [
+            2,
+            413
+          ],
+          [
+            30,
+            165
+          ],
+          [
+            32,
+            152
+          ]
+        ]
+      }
+    },
+    {
+      "case": "D10_M33_0d",
+      "target_retention": 1.0,
+      "kept_components": 2,
+      "body": {
+        "z_min": 0,
+        "z_max": 429,
+        "z_length_mm": 90.08999718725681,
+        "body_voxels": 2319854,
+        "body_volume_mm3": 21484.16588169747,
+        "body_bbox_zyx": [
+          [
+            0,
+            430
+          ],
+          [
+            35,
+            166
+          ],
+          [
+            41,
+            148
+          ]
+        ]
+      }
+    },
+    {
+      "case": "D10_M07_0d",
+      "target_retention": 1.0,
+      "kept_components": 1,
+      "body": {
+        "z_min": 1,
+        "z_max": 438,
+        "z_length_mm": 91.76999713480473,
+        "body_voxels": 2612206,
+        "body_volume_mm3": 24191.637500103636,
+        "body_bbox_zyx": [
+          [
+            1,
+            439
+          ],
+          [
+            31,
+            168
+          ],
+          [
+            35,
+            152
+          ]
+        ]
+      }
+    },
+    {
+      "case": "D10_M19_0d",
+      "target_retention": 1.0,
+      "kept_components": 2,
+      "body": {
+        "z_min": 1,
+        "z_max": 414,
+        "z_length_mm": 86.72999729216099,
+        "body_voxels": 2371447,
+        "body_volume_mm3": 21961.968609944342,
+        "body_bbox_zyx": [
+          [
+            1,
+            415
+          ],
+          [
+            31,
+            166
+          ],
+          [
+            37,
+            150
+          ]
+        ]
+      }
+    }
+  ],
+  "validation": "prior preserves at least 99.5% of each excluded training annotation; not a validation of segmentation generalization"
+}

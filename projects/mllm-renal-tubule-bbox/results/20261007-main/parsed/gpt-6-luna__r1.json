@@ -1,0 +1,372 @@
+{
+  "image": {
+    "width": 1164,
+    "height": 900
+  },
+  "predictions": [
+    {
+      "x": 108.8,
+      "y": 103.5,
+      "width": 98.9,
+      "height": 90.0,
+      "class": "renal tubule"
+    },
+    {
+      "x": 220.0,
+      "y": 173.2,
+      "width": 114.1,
+      "height": 98.1,
+      "class": "renal tubule"
+    },
+    {
+      "x": 360.3,
+      "y": 91.8,
+      "width": 105.9,
+      "height": 120.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 460.9,
+      "y": 177.3,
+      "width": 118.7,
+      "height": 100.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 576.8,
+      "y": 171.9,
+      "width": 115.2,
+      "height": 100.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 658.2,
+      "y": 96.8,
+      "width": 110.6,
+      "height": 123.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 1089.5,
+      "y": 147.2,
+      "width": 116.4,
+      "height": 132.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 81.5,
+      "y": 345.1,
+      "width": 83.8,
+      "height": 99.9,
+      "class": "renal tubule"
+    },
+    {
+      "x": 180.4,
+      "y": 304.2,
+      "width": 118.7,
+      "height": 111.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 290.4,
+      "y": 288.9,
+      "width": 110.6,
+      "height": 104.4,
+      "class": "renal tubule"
+    },
+    {
+      "x": 391.7,
+      "y": 262.8,
+      "width": 110.6,
+      "height": 111.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 493.5,
+      "y": 303.8,
+      "width": 109.4,
+      "height": 112.5,
+      "class": "renal tubule"
+    },
+    {
+      "x": 594.2,
+      "y": 264.1,
+      "width": 112.9,
+      "height": 114.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 693.7,
+      "y": 300.1,
+      "width": 116.4,
+      "height": 114.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 800.2,
+      "y": 280.4,
+      "width": 122.2,
+      "height": 126.9,
+      "class": "renal tubule"
+    },
+    {
+      "x": 920.1,
+      "y": 294.3,
+      "width": 136.2,
+      "height": 126.0,
+      "class": "renal tubule"
+    },
+    {
+      "x": 1041.2,
+      "y": 339.3,
+      "width": 115.2,
+      "height": 118.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 179.3,
+      "y": 456.8,
+      "width": 121.1,
+      "height": 112.5,
+      "class": "renal tubule"
+    },
+    {
+      "x": 270.0,
+      "y": 438.8,
+      "width": 81.5,
+      "height": 87.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 374.2,
+      "y": 451.8,
+      "width": 147.8,
+      "height": 111.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 544.2,
+      "y": 405.4,
+      "width": 138.5,
+      "height": 112.5,
+      "class": "renal tubule"
+    },
+    {
+      "x": 654.2,
+      "y": 409.5,
+      "width": 111.7,
+      "height": 111.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 754.9,
+      "y": 423.0,
+      "width": 117.6,
+      "height": 118.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 868.9,
+      "y": 424.8,
+      "width": 126.9,
+      "height": 120.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 986.5,
+      "y": 406.8,
+      "width": 126.9,
+      "height": 122.4,
+      "class": "renal tubule"
+    },
+    {
+      "x": 129.8,
+      "y": 538.6,
+      "width": 89.6,
+      "height": 83.7,
+      "class": "renal tubule"
+    },
+    {
+      "x": 228.7,
+      "y": 536.4,
+      "width": 110.6,
+      "height": 109.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 339.9,
+      "y": 562.1,
+      "width": 130.4,
+      "height": 121.5,
+      "class": "renal tubule"
+    },
+    {
+      "x": 469.7,
+      "y": 558.5,
+      "width": 110.6,
+      "height": 116.1,
+      "class": "renal tubule"
+    },
+    {
+      "x": 575.6,
+      "y": 558.0,
+      "width": 115.2,
+      "height": 122.4,
+      "class": "renal tubule"
+    },
+    {
+      "x": 692.0,
+      "y": 518.9,
+      "width": 122.2,
+      "height": 116.1,
+      "class": "renal tubule"
+    },
+    {
+      "x": 792.7,
+      "y": 540.0,
+      "width": 114.1,
+      "height": 115.2,
+      "class": "renal tubule"
+    },
+    {
+      "x": 891.6,
+      "y": 552.2,
+      "width": 116.4,
+      "height": 116.1,
+      "class": "renal tubule"
+    },
+    {
+      "x": 996.4,
+      "y": 521.1,
+      "width": 118.7,
+      "height": 111.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 136.8,
+      "y": 624.1,
+      "width": 96.6,
+      "height": 94.5,
+      "class": "renal tubule"
+    },
+    {
+      "x": 232.2,
+      "y": 647.1,
+      "width": 110.6,
+      "height": 117.0,
+      "class": "renal tubule"
+    },
+    {
+      "x": 335.2,
+      "y": 654.8,
+      "width": 116.4,
+      "height": 119.7,
+      "class": "renal tubule"
+    },
+    {
+      "x": 444.1,
+      "y": 646.2,
+      "width": 110.6,
+      "height": 118.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 553.5,
+      "y": 650.7,
+      "width": 112.9,
+      "height": 117.0,
+      "class": "renal tubule"
+    },
+    {
+      "x": 660.0,
+      "y": 626.9,
+      "width": 116.4,
+      "height": 114.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 767.7,
+      "y": 643.0,
+      "width": 122.2,
+      "height": 125.1,
+      "class": "renal tubule"
+    },
+    {
+      "x": 877.1,
+      "y": 655.7,
+      "width": 119.9,
+      "height": 123.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 990.0,
+      "y": 629.5,
+      "width": 122.2,
+      "height": 119.7,
+      "class": "renal tubule"
+    },
+    {
+      "x": 126.9,
+      "y": 738.9,
+      "width": 100.1,
+      "height": 97.2,
+      "class": "renal tubule"
+    },
+    {
+      "x": 231.6,
+      "y": 756.0,
+      "width": 121.1,
+      "height": 115.2,
+      "class": "renal tubule"
+    },
+    {
+      "x": 345.1,
+      "y": 763.7,
+      "width": 122.2,
+      "height": 123.3,
+      "class": "renal tubule"
+    },
+    {
+      "x": 453.4,
+      "y": 758.7,
+      "width": 115.2,
+      "height": 120.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 561.0,
+      "y": 763.2,
+      "width": 118.7,
+      "height": 120.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 674.0,
+      "y": 738.9,
+      "width": 116.4,
+      "height": 120.6,
+      "class": "renal tubule"
+    },
+    {
+      "x": 785.7,
+      "y": 763.2,
+      "width": 121.1,
+      "height": 127.8,
+      "class": "renal tubule"
+    },
+    {
+      "x": 895.1,
+      "y": 757.8,
+      "width": 123.4,
+      "height": 124.2,
+      "class": "renal tubule"
+    },
+    {
+      "x": 1003.4,
+      "y": 745.2,
+      "width": 121.1,
+      "height": 122.4,
+      "class": "renal tubule"
+    }
+  ]
+}

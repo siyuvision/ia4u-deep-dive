@@ -1,0 +1,3 @@
+requests>=2.32
+Pillow>=11
+pytest>=8

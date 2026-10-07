@@ -1,0 +1,46 @@
+{
+  "run_id": "20261007-native",
+  "started_utc": "2026-10-07T11:17:48.433487+00:00",
+  "models": [
+    {
+      "key": "gemini-3.8-flash",
+      "label": "Gemini 3.8 Flash (native format)",
+      "id": "google/gemini-3.8-flash",
+      "requested_as": "Gemini 3.8 flash",
+      "enabled": true,
+      "prompt": "prompts/bbox_v1_gemini.txt",
+      "convention": "yxyx_norm1000",
+      "note": ""
+    },
+    {
+      "key": "kimi-k3",
+      "label": "Kimi K3 (native format)",
+      "id": "moonshotai/kimi-k3",
+      "requested_as": "Kimi 3",
+      "enabled": true,
+      "prompt": "prompts/bbox_v1_kimi.txt",
+      "convention": "xyxy_px",
+      "note": ""
+    }
+  ],
+  "repeats": 3,
+  "max_tokens": 32000,
+  "reasoning_effort": null,
+  "image": {
+    "path": "data/input/kidney-he-case01-1024x791.jpg",
+    "sha256": "01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59",
+    "bytes": 276874
+  },
+  "prompts": {
+    "gemini-3.8-flash": {
+      "path": "repo/prompts/bbox_v1_gemini.txt",
+      "sha256": "5a02f34d4e553754ee7c0c8a09ff8640b1e36ff986666a7a58134f34bd81e3be"
+    },
+    "kimi-k3": {
+      "path": "repo/prompts/bbox_v1_kimi.txt",
+      "sha256": "53c5de2deeab565db3c5c3b9c7a0cf9692da9beb15a645e1d33e7f4ba2a88c28"
+    }
+  },
+  "python": "3.11.16",
+  "requests": "2.34.2"
+}

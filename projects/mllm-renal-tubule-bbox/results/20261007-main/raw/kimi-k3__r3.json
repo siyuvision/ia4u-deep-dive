@@ -1,0 +1,120 @@
+{
+  "model": {
+    "key": "kimi-k3",
+    "label": "Kimi K3",
+    "id": "moonshotai/kimi-k3",
+    "requested_as": "Kimi 3",
+    "enabled": true,
+    "note": ""
+  },
+  "repeat": 3,
+  "created_utc": "2026-10-07T08:41:12.801250+00:00",
+  "request": {
+    "model": "moonshotai/kimi-k3",
+    "max_tokens": 32000,
+    "usage": {
+      "include": true
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are looking at a hematoxylin and eosin (H&E) stained histology image of kidney tissue.\n\nTask: find every renal tubule that lies completely inside the image and return one axis-aligned bounding box per tubule.\n\nRules:\n- A renal tubule appears as a ring-shaped or oval cross-section of epithelial cells around a lumen. The box must enclose the whole tubule including its epithelial wall.\n- Only box tubules that are fully visible. Skip any tubule that is cut off by the image border.\n- Do not box glomeruli, blood vessels, interstitial tissue, or single cells.\n- Coordinates are [x_min, y_min, x_max, y_max]. The origin is the top-left corner of the image, x increases to the right and y increases downward. Each value is an integer from 0 to 1000, normalized by the image width for x and by the image height for y, so [0, 0, 1000, 1000] is the whole image.\n\nReply with a single JSON array and nothing else, in exactly this form:\n[{\"label\": \"renal tubule\", \"bbox_2d\": [x_min, y_min, x_max, y_max]}, ...]\n"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "<inline image 276874 bytes sha256=01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "call": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "object": "chat.completion",
+      "created": 1791362394,
+      "model": "moonshotai/kimi-k3",
+      "provider": "Amazon Bedrock",
+      "usage": {
+        "prompt_tokens": 1426,
+        "completion_tokens": 7027,
+        "total_tokens": 8453,
+        "cost": 0.1058517,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1419,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.1058517,
+          "upstream_inference_prompt_cost": 0.0004467,
+          "upstream_inference_completions_cost": 0.105405
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 6231,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "[{\"label\": \"renal tubule\", \"bbox_2d\": [68, 64, 138, 131]}, {\"label\": \"renal tubule\", \"bbox_2d\": [277, 56, 355, 138]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 135, 251, 188]}, {\"label\": \"renal tubule\", \"bbox_2d\": [363, 113, 443, 183]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 126, 522, 205]}, {\"label\": \"renal tubule\", \"bbox_2d\": [112, 214, 200, 297]}, {\"label\": \"renal tubule\", \"bbox_2d\": [203, 212, 318, 302]}, {\"label\": \"renal tubule\", \"bbox_2d\": [33, 244, 99, 333]}, {\"label\": \"renal tubule\", \"bbox_2d\": [121, 342, 203, 423]}, {\"label\": \"renal tubule\", \"bbox_2d\": [6, 367, 86, 444]}, {\"label\": \"renal tubule\", \"bbox_2d\": [275, 350, 397, 442]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 389, 552, 469]}, {\"label\": \"renal tubule\", \"bbox_2d\": [373, 423, 466, 493]}, {\"label\": \"renal tubule\", \"bbox_2d\": [516, 399, 600, 459]}, {\"label\": \"renal tubule\", \"bbox_2d\": [571, 477, 682, 555]}, {\"label\": \"renal tubule\", \"bbox_2d\": [82, 457, 143, 517]}, {\"label\": \"renal tubule\", \"bbox_2d\": [31, 507, 109, 574]}, {\"label\": \"renal tubule\", \"bbox_2d\": [170, 514, 253, 586]}, {\"label\": \"renal tubule\", \"bbox_2d\": [286, 521, 375, 605]}, {\"label\": \"renal tubule\", \"bbox_2d\": [443, 569, 528, 642]}, {\"label\": \"renal tubule\", \"bbox_2d\": [342, 605, 424, 669]}, {\"label\": \"renal tubule\", \"bbox_2d\": [461, 661, 554, 733]}, {\"label\": \"renal tubule\", \"bbox_2d\": [566, 651, 699, 739]}, {\"label\": \"renal tubule\", \"bbox_2d\": [78, 599, 143, 671]}, {\"label\": \"renal tubule\", \"bbox_2d\": [37, 652, 111, 730]}, {\"label\": \"renal tubule\", \"bbox_2d\": [162, 653, 236, 721]}, {\"label\": \"renal tubule\", \"bbox_2d\": [300, 711, 377, 764]}, {\"label\": \"renal tubule\", \"bbox_2d\": [173, 716, 260, 787]}, {\"label\": \"renal tubule\", \"bbox_2d\": [424, 736, 540, 819]}, {\"label\": \"renal tubule\", \"bbox_2d\": [563, 797, 689, 900]}]",
+            "refusal": null
+          }
+        }
+      ]
+    },
+    "body_text": null,
+    "attempts": [
+      {
+        "status": 200,
+        "error": null,
+        "latency_s": 79.81299999996554
+      }
+    ],
+    "latency_s": 79.81299999996554
+  },
+  "text": "[{\"label\": \"renal tubule\", \"bbox_2d\": [68, 64, 138, 131]}, {\"label\": \"renal tubule\", \"bbox_2d\": [277, 56, 355, 138]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 135, 251, 188]}, {\"label\": \"renal tubule\", \"bbox_2d\": [363, 113, 443, 183]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 126, 522, 205]}, {\"label\": \"renal tubule\", \"bbox_2d\": [112, 214, 200, 297]}, {\"label\": \"renal tubule\", \"bbox_2d\": [203, 212, 318, 302]}, {\"label\": \"renal tubule\", \"bbox_2d\": [33, 244, 99, 333]}, {\"label\": \"renal tubule\", \"bbox_2d\": [121, 342, 203, 423]}, {\"label\": \"renal tubule\", \"bbox_2d\": [6, 367, 86, 444]}, {\"label\": \"renal tubule\", \"bbox_2d\": [275, 350, 397, 442]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 389, 552, 469]}, {\"label\": \"renal tubule\", \"bbox_2d\": [373, 423, 466, 493]}, {\"label\": \"renal tubule\", \"bbox_2d\": [516, 399, 600, 459]}, {\"label\": \"renal tubule\", \"bbox_2d\": [571, 477, 682, 555]}, {\"label\": \"renal tubule\", \"bbox_2d\": [82, 457, 143, 517]}, {\"label\": \"renal tubule\", \"bbox_2d\": [31, 507, 109, 574]}, {\"label\": \"renal tubule\", \"bbox_2d\": [170, 514, 253, 586]}, {\"label\": \"renal tubule\", \"bbox_2d\": [286, 521, 375, 605]}, {\"label\": \"renal tubule\", \"bbox_2d\": [443, 569, 528, 642]}, {\"label\": \"renal tubule\", \"bbox_2d\": [342, 605, 424, 669]}, {\"label\": \"renal tubule\", \"bbox_2d\": [461, 661, 554, 733]}, {\"label\": \"renal tubule\", \"bbox_2d\": [566, 651, 699, 739]}, {\"label\": \"renal tubule\", \"bbox_2d\": [78, 599, 143, 671]}, {\"label\": \"renal tubule\", \"bbox_2d\": [37, 652, 111, 730]}, {\"label\": \"renal tubule\", \"bbox_2d\": [162, 653, 236, 721]}, {\"label\": \"renal tubule\", \"bbox_2d\": [300, 711, 377, 764]}, {\"label\": \"renal tubule\", \"bbox_2d\": [173, 716, 260, 787]}, {\"label\": \"renal tubule\", \"bbox_2d\": [424, 736, 540, 819]}, {\"label\": \"renal tubule\", \"bbox_2d\": [563, 797, 689, 900]}]",
+  "finish_reason": "stop",
+  "usage": {
+    "provider": "Amazon Bedrock",
+    "served_model": "moonshotai/kimi-k3",
+    "prompt_tokens": 1426,
+    "completion_tokens": 7027,
+    "reasoning_tokens": 6231,
+    "cost_usd": 0.1058517
+  },
+  "generation": {
+    "created_at": "2026-10-07T08:39:54.599Z",
+    "model": "moonshotai/kimi-k3-20260715",
+    "latency": 2905,
+    "moderation_latency": null,
+    "generation_time": 78712,
+    "tokens_prompt": 1703,
+    "tokens_completion": 5699,
+    "native_tokens_prompt": 1426,
+    "native_tokens_completion": 7027,
+    "native_tokens_reasoning": 6231,
+    "native_tokens_cached": 1419,
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "service_tier": "default",
+    "total_cost": 0.1058517,
+    "cache_discount": 0.0038313,
+    "upstream_inference_cost": 0,
+    "provider_name": "Amazon Bedrock"
+  },
+  "publication_note": "Sanitized public record: final answer and numerical measurements preserved; account/session/request identifiers and reasoning text omitted."
+}

@@ -1,0 +1,103 @@
+{
+  "model": {
+    "key": "kimi-k3",
+    "label": "Kimi K3 (native format)",
+    "id": "moonshotai/kimi-k3",
+    "requested_as": "Kimi 3",
+    "enabled": true,
+    "prompt": "prompts/bbox_v1_kimi.txt",
+    "convention": "xyxy_px",
+    "note": ""
+  },
+  "repeat": 3,
+  "created_utc": "2026-10-07T11:19:50.734618+00:00",
+  "request": {
+    "model": "moonshotai/kimi-k3",
+    "max_tokens": 32000,
+    "usage": {
+      "include": true
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are looking at a hematoxylin and eosin (H&E) stained histology image of kidney tissue. The image is 1024 pixels wide and 791 pixels high.\n\nTask: find every renal tubule that lies completely inside the image and return one axis-aligned bounding box per tubule.\n\nRules:\n- A renal tubule appears as a ring-shaped or oval cross-section of epithelial cells around a lumen. The box must enclose the whole tubule including its epithelial wall.\n- Only box tubules that are fully visible. Skip any tubule that is cut off by the image border.\n- Do not box glomeruli, blood vessels, interstitial tissue, or single cells.\n- Coordinates are [x_min, y_min, x_max, y_max] in pixels of the image as given to you. The origin is the top-left corner of the image, x increases to the right and y increases downward. x values are between 0 and 1024 and y values between 0 and 791.\n\nReply with a single JSON array and nothing else, in exactly this form:\n[{\"label\": \"renal tubule\", \"bbox_2d\": [x_min, y_min, x_max, y_max]}, ...]\n"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "<inline image 276874 bytes sha256=01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "call": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "object": "chat.completion",
+      "created": 1791371902,
+      "model": "moonshotai/kimi-k3",
+      "provider": "Amazon Bedrock",
+      "usage": {
+        "prompt_tokens": 1422,
+        "completion_tokens": 7715,
+        "total_tokens": 9137,
+        "cost": 0.12105225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1415,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.12105225,
+          "upstream_inference_prompt_cost": 0.00532725,
+          "upstream_inference_completions_cost": 0.115725
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 6971,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "[{\"label\": \"renal tubule\", \"bbox_2d\": [53, 44, 135, 117]}, {\"label\": \"renal tubule\", \"bbox_2d\": [264, 45, 365, 135]}, {\"label\": \"renal tubule\", \"bbox_2d\": [141, 105, 247, 186]}, {\"label\": \"renal tubule\", \"bbox_2d\": [357, 110, 451, 184]}, {\"label\": \"renal tubule\", \"bbox_2d\": [34, 244, 107, 333]}, {\"label\": \"renal tubule\", \"bbox_2d\": [111, 212, 201, 296]}, {\"label\": \"renal tubule\", \"bbox_2d\": [199, 210, 314, 319]}, {\"label\": \"renal tubule\", \"bbox_2d\": [377, 238, 474, 317]}, {\"label\": \"renal tubule\", \"bbox_2d\": [421, 308, 549, 392]}, {\"label\": \"renal tubule\", \"bbox_2d\": [565, 302, 684, 379]}, {\"label\": \"renal tubule\", \"bbox_2d\": [128, 341, 208, 414]}, {\"label\": \"renal tubule\", \"bbox_2d\": [269, 346, 392, 423]}, {\"label\": \"renal tubule\", \"bbox_2d\": [407, 392, 507, 474]}, {\"label\": \"renal tubule\", \"bbox_2d\": [516, 397, 607, 468]}, {\"label\": \"renal tubule\", \"bbox_2d\": [315, 427, 417, 497]}, {\"label\": \"renal tubule\", \"bbox_2d\": [577, 475, 676, 560]}, {\"label\": \"renal tubule\", \"bbox_2d\": [73, 454, 132, 510]}, {\"label\": \"renal tubule\", \"bbox_2d\": [170, 510, 259, 595]}, {\"label\": \"renal tubule\", \"bbox_2d\": [268, 524, 374, 602]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 489, 531, 558]}, {\"label\": \"renal tubule\", \"bbox_2d\": [337, 602, 432, 665]}, {\"label\": \"renal tubule\", \"bbox_2d\": [455, 571, 579, 644]}, {\"label\": \"renal tubule\", \"bbox_2d\": [428, 657, 547, 727]}, {\"label\": \"renal tubule\", \"bbox_2d\": [568, 651, 728, 749]}, {\"label\": \"renal tubule\", \"bbox_2d\": [147, 650, 238, 722]}, {\"label\": \"renal tubule\", \"bbox_2d\": [300, 711, 382, 764]}, {\"label\": \"renal tubule\", \"bbox_2d\": [53, 595, 117, 658]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 583, 209, 638]}]",
+            "refusal": null
+          }
+        }
+      ]
+    },
+    "body_text": null,
+    "attempts": [
+      {
+        "status": 200,
+        "error": null,
+        "latency_s": 93.875
+      }
+    ],
+    "latency_s": 93.875
+  },
+  "text": "[{\"label\": \"renal tubule\", \"bbox_2d\": [53, 44, 135, 117]}, {\"label\": \"renal tubule\", \"bbox_2d\": [264, 45, 365, 135]}, {\"label\": \"renal tubule\", \"bbox_2d\": [141, 105, 247, 186]}, {\"label\": \"renal tubule\", \"bbox_2d\": [357, 110, 451, 184]}, {\"label\": \"renal tubule\", \"bbox_2d\": [34, 244, 107, 333]}, {\"label\": \"renal tubule\", \"bbox_2d\": [111, 212, 201, 296]}, {\"label\": \"renal tubule\", \"bbox_2d\": [199, 210, 314, 319]}, {\"label\": \"renal tubule\", \"bbox_2d\": [377, 238, 474, 317]}, {\"label\": \"renal tubule\", \"bbox_2d\": [421, 308, 549, 392]}, {\"label\": \"renal tubule\", \"bbox_2d\": [565, 302, 684, 379]}, {\"label\": \"renal tubule\", \"bbox_2d\": [128, 341, 208, 414]}, {\"label\": \"renal tubule\", \"bbox_2d\": [269, 346, 392, 423]}, {\"label\": \"renal tubule\", \"bbox_2d\": [407, 392, 507, 474]}, {\"label\": \"renal tubule\", \"bbox_2d\": [516, 397, 607, 468]}, {\"label\": \"renal tubule\", \"bbox_2d\": [315, 427, 417, 497]}, {\"label\": \"renal tubule\", \"bbox_2d\": [577, 475, 676, 560]}, {\"label\": \"renal tubule\", \"bbox_2d\": [73, 454, 132, 510]}, {\"label\": \"renal tubule\", \"bbox_2d\": [170, 510, 259, 595]}, {\"label\": \"renal tubule\", \"bbox_2d\": [268, 524, 374, 602]}, {\"label\": \"renal tubule\", \"bbox_2d\": [431, 489, 531, 558]}, {\"label\": \"renal tubule\", \"bbox_2d\": [337, 602, 432, 665]}, {\"label\": \"renal tubule\", \"bbox_2d\": [455, 571, 579, 644]}, {\"label\": \"renal tubule\", \"bbox_2d\": [428, 657, 547, 727]}, {\"label\": \"renal tubule\", \"bbox_2d\": [568, 651, 728, 749]}, {\"label\": \"renal tubule\", \"bbox_2d\": [147, 650, 238, 722]}, {\"label\": \"renal tubule\", \"bbox_2d\": [300, 711, 382, 764]}, {\"label\": \"renal tubule\", \"bbox_2d\": [53, 595, 117, 658]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 583, 209, 638]}]",
+  "finish_reason": "stop",
+  "usage": {
+    "provider": "Amazon Bedrock",
+    "served_model": "moonshotai/kimi-k3",
+    "prompt_tokens": 1422,
+    "completion_tokens": 7715,
+    "reasoning_tokens": 6971,
+    "cost_usd": 0.12105225
+  },
+  "generation": null,
+  "publication_note": "Sanitized public record: final answer and numerical measurements preserved; account/session/request identifiers and reasoning text omitted."
+}

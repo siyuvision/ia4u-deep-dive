@@ -9,6 +9,16 @@ weights/
 
 # Inference outputs
 results/
+!projects/mllm-renal-tubule-bbox/results/
+!projects/mllm-renal-tubule-bbox/results/**
+
+# Local API credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
 
 # OS / editor
 .DS_Store

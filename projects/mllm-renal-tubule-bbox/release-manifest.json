@@ -1,0 +1,846 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "760ee654013f09c83c1076b2d7bf32b8407b2c7d65d64363395c7a6244770ee7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 184,
+      "sha256": "b3f46a159ae1a938f79f6cb1f5722fb1063709874ab71bd5dcc4bc928dae28ee"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "1cd380123d96452ec8f0badb605f1102a4be54d549f9e27f16174e169b5dbe84"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5793,
+      "sha256": "2e57fc1018b1f2731790aadf5787e949a2f27736ed6d5f51eb9f6b656720f9a2"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 872,
+      "sha256": "161ba63710a9d865b438fc18b4e1e73e1126cd76f59d88f8c898aaede8f40bf2"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 890,
+      "sha256": "88c6506c580aee4745c528e35ab56e88adf7a1cd56758320898cfa54a5fe8cc0"
+    },
+    {
+      "path": "data/annotations/gt-manual.json",
+      "bytes": 4873,
+      "sha256": "1a3496720da65136bc4337cc79437a0b4d07461e754392cd22ae91296878ff5a"
+    },
+    {
+      "path": "data/input/kidney-he-case01-1024x791.jpg",
+      "bytes": 276874,
+      "sha256": "01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59"
+    },
+    {
+      "path": "repo/.env.example",
+      "bytes": 20,
+      "sha256": "047e097256db4922a2580079650ee76a7d2b50a34490728938f4708e6ebd7018"
+    },
+    {
+      "path": "repo/README.md",
+      "bytes": 6105,
+      "sha256": "e82189f6686982755505056ed179a3749a800b508ae47b523bcc40d6b10ef64b"
+    },
+    {
+      "path": "repo/requirements.lock.txt",
+      "bytes": 212,
+      "sha256": "83d172a47fbd527fe919a423b3a43347e40d0c5950f63eaa8b42b7d12a9f7329"
+    },
+    {
+      "path": "repo/requirements.txt",
+      "bytes": 39,
+      "sha256": "dcd640ac13b38be5deaad0a2c71d03177a45c2f9b5195a7c1dc1cd194dd5a47f"
+    },
+    {
+      "path": "repo/config/models-native.json",
+      "bytes": 1237,
+      "sha256": "7242e05f60ef5462d82b68b32dca6c77c3281f199a63462a871117775103c102"
+    },
+    {
+      "path": "repo/config/models.json",
+      "bytes": 2295,
+      "sha256": "5ceee9161d025b576e5a355b77c64aa60915c044b6577bc456cba781f1730a02"
+    },
+    {
+      "path": "repo/prompts/bbox_v1.txt",
+      "bytes": 1018,
+      "sha256": "dc7b6aae7c16e7e4be550c1ae99d727a0ffe17f8a003897a8aa827ca65a174d2"
+    },
+    {
+      "path": "repo/prompts/bbox_v1_gemini.txt",
+      "bytes": 1017,
+      "sha256": "4fec0dd3539fc5e316a71f81649967db4c988872a791d025ee2543b24a38c2c5"
+    },
+    {
+      "path": "repo/prompts/bbox_v1_kimi.txt",
+      "bytes": 1022,
+      "sha256": "735be20d8945c09dc44f909b3f4974e7a22ab5bf83e45fd86a4848b8a7ddfcf9"
+    },
+    {
+      "path": "repo/scripts/check_models.py",
+      "bytes": 3989,
+      "sha256": "6ad9b40c24fccb0b541056127e5c86f012008f7fd8713ab491fd94057d04adc9"
+    },
+    {
+      "path": "repo/scripts/evaluate_runs.py",
+      "bytes": 13999,
+      "sha256": "dec9dd3ce2351e7cb9690f511f4f647cf71d1f848ba88b463cbb44b3820ef3c9"
+    },
+    {
+      "path": "repo/scripts/export_qupath.py",
+      "bytes": 1842,
+      "sha256": "09b184fb0b3924862b6ba6392c633e7141dc106832018084b8c3baf23fcff904"
+    },
+    {
+      "path": "repo/scripts/run_models.py",
+      "bytes": 10489,
+      "sha256": "ef1db72d40775cc6c47ca7cea8499aa5aa32068502577f7e415b8dc649e769a3"
+    },
+    {
+      "path": "repo/src/mllm_bbox/boxes.py",
+      "bytes": 5985,
+      "sha256": "f73d893aedf0256a248012ee477505bc3c370a7364e4c267ac682c8133f86bce"
+    },
+    {
+      "path": "repo/src/mllm_bbox/efficiency.py",
+      "bytes": 3404,
+      "sha256": "74a08fed691a55d3afd8766c221667bea88f573ce203a161441a9f9aa7dccfb1"
+    },
+    {
+      "path": "repo/src/mllm_bbox/evaluation.py",
+      "bytes": 3297,
+      "sha256": "9e9062a93e572d5c78b341ed7d08f9e5f3100b17616188211f33f0ca9ddd4eac"
+    },
+    {
+      "path": "repo/src/mllm_bbox/openrouter.py",
+      "bytes": 9139,
+      "sha256": "2eec96b85c0d7f3bfd2357b8d338b9881e00d9f3f9fa066aab8f553cf4bfb1d5"
+    },
+    {
+      "path": "repo/src/mllm_bbox/parsing.py",
+      "bytes": 4633,
+      "sha256": "dd2d1baefb989c31a033e9a66517f289451aa75fc2e49cf6a20d2535db958027"
+    },
+    {
+      "path": "repo/src/mllm_bbox/render.py",
+      "bytes": 1254,
+      "sha256": "256c8f1b0198cd57c8c5a7ee73001e7a673e5095431bf26879e210cc941bb886"
+    },
+    {
+      "path": "repo/src/mllm_bbox/__init__.py",
+      "bytes": 79,
+      "sha256": "cb62456e001ea220ab435928e63490b74a7da56f7108020e617efcc2fd34f197"
+    },
+    {
+      "path": "repo/tests/conftest.py",
+      "bytes": 471,
+      "sha256": "7a2f5671fe7797010856b188beb758b66bb8965817ef9055dad7e1c8bae19708"
+    },
+    {
+      "path": "repo/tests/test_boxes.py",
+      "bytes": 5381,
+      "sha256": "8e075b3b077a852fa31bf95ba31fcf60f2873f84bab02409b1c02166f2573e92"
+    },
+    {
+      "path": "repo/tests/test_efficiency.py",
+      "bytes": 4402,
+      "sha256": "4eb634e2cbd20e39d0d56870de4e12986b2c5c506107a6d09377e32a0a161761"
+    },
+    {
+      "path": "repo/tests/test_openrouter.py",
+      "bytes": 7222,
+      "sha256": "82879c634a449b0ed2a9b5fdb59ac0eecce327769dc3c7f55d4970165591d126"
+    },
+    {
+      "path": "repo/tests/test_parsing.py",
+      "bytes": 2905,
+      "sha256": "56a342d63c903c32c946fa67e18d24b411794d9022da7ac126cda8476d90676f"
+    },
+    {
+      "path": "repo/tests/test_pipeline.py",
+      "bytes": 13833,
+      "sha256": "c2b93c9544b357753e8c85be253a2a5562eb3761079152f8930e1160c773114a"
+    },
+    {
+      "path": "repo/tests/test_qupath_export.py",
+      "bytes": 701,
+      "sha256": "99f0cf8f8f4e6daeae99a95aef96ac5c5a65232cfd1ac70cef32f49194dd28fe"
+    },
+    {
+      "path": "results/20261007-main/run.json",
+      "bytes": 2429,
+      "sha256": "f19fd96f33b76bfa099a18700c86b09ca2b9550a24015a5f6050866b02c236fd"
+    },
+    {
+      "path": "results/20261007-main/scores.csv",
+      "bytes": 11327,
+      "sha256": "db60db9a6c929f15cd62f708fd095fffe9ad4b5916810fa5f0f9bd6419bb5a0e"
+    },
+    {
+      "path": "results/20261007-main/summary.md",
+      "bytes": 4097,
+      "sha256": "c0833614661d16022b07867590e6a56d1de69357dca07337fae494cb1789230f"
+    },
+    {
+      "path": "results/20261007-main/geojson/deepseek-v4.1-flash__r1.geojson",
+      "bytes": 38707,
+      "sha256": "352b78cc4febf5606f86815fed7e6ac5fc4e5011444b3e2a252fd9de67f992d6"
+    },
+    {
+      "path": "results/20261007-main/geojson/deepseek-v4.1-flash__r2.geojson",
+      "bytes": 45649,
+      "sha256": "1e9d0007cb0caa34c407ebe17648ac1271b3547e9af29f603457a275f0a873dd"
+    },
+    {
+      "path": "results/20261007-main/geojson/deepseek-v4.1-flash__r3.geojson",
+      "bytes": 45687,
+      "sha256": "0d235fc9ba274b484856a06ad02a69e37b06f98b870ffd91093f866a98dc9de0"
+    },
+    {
+      "path": "results/20261007-main/geojson/gemini-3.8-flash__r1.geojson",
+      "bytes": 29606,
+      "sha256": "d3288b1181b145d4eb9686009642664999db925160d5dd72e3e9fda1dc5c1f9a"
+    },
+    {
+      "path": "results/20261007-main/geojson/gemini-3.8-flash__r2.geojson",
+      "bytes": 31163,
+      "sha256": "bd2f6df844af607f6714a0beb030436d39719743200b726d7ce8728b241990cc"
+    },
+    {
+      "path": "results/20261007-main/geojson/gemini-3.8-flash__r3.geojson",
+      "bytes": 28604,
+      "sha256": "8ef487c7bcf6b0cc5e7ab6331126f7f6c26e99e466c65c6226eaf0e69e6d78c6"
+    },
+    {
+      "path": "results/20261007-main/geojson/glm-5.3-flash__r1.geojson",
+      "bytes": 56,
+      "sha256": "7626ea83caeb18d3dad503b15bfd7eb88c4c13ba8440fab45c456f9288f03cce"
+    },
+    {
+      "path": "results/20261007-main/geojson/glm-5.3-flash__r2.geojson",
+      "bytes": 24081,
+      "sha256": "7257b70d241c1c677c59b96cc407c1d3f44ac560736a304f8176c0009aadc6f8"
+    },
+    {
+      "path": "results/20261007-main/geojson/glm-5.3-flash__r3.geojson",
+      "bytes": 28362,
+      "sha256": "e435fe08fb94b6b0b2c4df3fbfd764efa153b1892758c22f74866df2da3dc4f0"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6-luna__r1.geojson",
+      "bytes": 43707,
+      "sha256": "3630b78ab7b683fc408a225a7ef02459c6fa68b03f9cf2cbeb81f0ad17625b9d"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6-luna__r2.geojson",
+      "bytes": 46748,
+      "sha256": "ab46c893a865bcac0562cb2d48e21509c3c0a5ccc5cc91fa75af1effdcf89b7d"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6-luna__r3.geojson",
+      "bytes": 37007,
+      "sha256": "e2688326ab610e4c3ce3961a03e88c654d8562d2595fea6a05bf55b19a3dab73"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6.1-sol__r1.geojson",
+      "bytes": 46133,
+      "sha256": "75148e57e7521acbb5ea0c05bbc934b1c9c1e2c2a4c5380a9cdfaedc8ac8fe10"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6.1-sol__r2.geojson",
+      "bytes": 43665,
+      "sha256": "10d5665e396af40b62f538052a42390f0452d66c6e2d60b5bd0266c712ccccb2"
+    },
+    {
+      "path": "results/20261007-main/geojson/gpt-6.1-sol__r3.geojson",
+      "bytes": 45475,
+      "sha256": "61e429d705ca217f1f8e4d0d1c30d22deeebe64b88dd9ec649ef4545a1001c6a"
+    },
+    {
+      "path": "results/20261007-main/geojson/gt-manual.geojson",
+      "bytes": 31498,
+      "sha256": "d46da7a87faa46cdaa1c6fced7be68b2010e974bab26a414c5188c9871530ce3"
+    },
+    {
+      "path": "results/20261007-main/geojson/kimi-k3__r1.geojson",
+      "bytes": 32881,
+      "sha256": "83614a86d3180482f1d110236994591a6079362cabd0c376d8f93a41150fffc4"
+    },
+    {
+      "path": "results/20261007-main/geojson/kimi-k3__r2.geojson",
+      "bytes": 29205,
+      "sha256": "5300453120193f4f2d59c9d4084392ff70d124d54becebacefa4fa545d3d1197"
+    },
+    {
+      "path": "results/20261007-main/geojson/kimi-k3__r3.geojson",
+      "bytes": 24908,
+      "sha256": "d3e0ab705f9de10e660e57d17dadc5b23c497102a04cf39ba1a458bfcecb3177"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-flash__r1.geojson",
+      "bytes": 35649,
+      "sha256": "f0d1e72977fc3d31754a549b20991b5c53396cc46c4693585258e0487974d03e"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-flash__r2.geojson",
+      "bytes": 31608,
+      "sha256": "11a054117c7bff867153ae8d731575d75450ae14d0ecad5077f1a3575e5310ad"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-flash__r3.geojson",
+      "bytes": 30813,
+      "sha256": "a0c7dc26eda89bbd96bc47e3829e92dd79b2edbbda774d93c171f38654006ce6"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-max__r1.geojson",
+      "bytes": 25186,
+      "sha256": "5b24f0276f9341d916207e3739e37c52b10881b3e0fbaa6a8013582b72031621"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-max__r2.geojson",
+      "bytes": 34518,
+      "sha256": "0233511ae35135bf778a4ae443401f9870e4ba6d0e39dc5fe6caad6fcdac7887"
+    },
+    {
+      "path": "results/20261007-main/geojson/qwen3.8-max__r3.geojson",
+      "bytes": 28503,
+      "sha256": "18f383fa6618d392de7682d8701eb14a6fb7a81d86a1fffa51dc2d101eb60c66"
+    },
+    {
+      "path": "results/20261007-main/overlays/deepseek-v4.1-flash__r1.png",
+      "bytes": 1738274,
+      "sha256": "2cd9da696c7c4dccaf8645d27b0f0776126cfdfcb5c52c1dac45ec351456a274"
+    },
+    {
+      "path": "results/20261007-main/overlays/deepseek-v4.1-flash__r2.png",
+      "bytes": 1735086,
+      "sha256": "7a3e18ac6425cedd26388c9dad64dad3a37a10dc7fcbe33d22b7300cc3c88d90"
+    },
+    {
+      "path": "results/20261007-main/overlays/deepseek-v4.1-flash__r3.png",
+      "bytes": 1735880,
+      "sha256": "d845d1e172cec7720e365311030df9015d6e476bb23d366196f1e6dae616fe93"
+    },
+    {
+      "path": "results/20261007-main/overlays/gemini-3.8-flash__r1.png",
+      "bytes": 1747555,
+      "sha256": "6c3fd2824561408f07b08f9130273bfae1cb24319ee6b84b55aaf74b17c2d733"
+    },
+    {
+      "path": "results/20261007-main/overlays/gemini-3.8-flash__r2.png",
+      "bytes": 1745872,
+      "sha256": "f6bc682945bc5125e4e2118dd505af10b123aa7365b3aea731f75383a73b9aa7"
+    },
+    {
+      "path": "results/20261007-main/overlays/gemini-3.8-flash__r3.png",
+      "bytes": 1749732,
+      "sha256": "ac10adfe8ef7497ed2850de3f0e47043522434c4c64c03d72ece7fef8d8f85ee"
+    },
+    {
+      "path": "results/20261007-main/overlays/glm-5.3-flash__r1.png",
+      "bytes": 1775064,
+      "sha256": "2e19b4962cffd51d62d41935db28abbe47e9380357972da7da5b7dad838c5d29"
+    },
+    {
+      "path": "results/20261007-main/overlays/glm-5.3-flash__r2.png",
+      "bytes": 1758546,
+      "sha256": "ccac3c751aa6352a6defa99d6aa612bc943b3e10a55d18565a931f7c75d4f3ac"
+    },
+    {
+      "path": "results/20261007-main/overlays/glm-5.3-flash__r3.png",
+      "bytes": 1752896,
+      "sha256": "17c25994468241b2ca4f50ee03eaaaced3c1dd4834d20983917601ad8a06ce29"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6-luna__r1.png",
+      "bytes": 1738632,
+      "sha256": "4756449aa3b75a735a6cd610ef2e0e275c9c9bb158d028ea381ddea7ab231fbe"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6-luna__r2.png",
+      "bytes": 1744183,
+      "sha256": "6fb6fb727fb627f9b4d6664dd719ecf82518c6cc437751c818fa60af23cea53a"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6-luna__r3.png",
+      "bytes": 1746496,
+      "sha256": "bdf02d6335c8b824c07997aac0dd7c9e72d0117a82d2dd8c44e41e77580b69f0"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6.1-sol__r1.png",
+      "bytes": 1731836,
+      "sha256": "5f876bd86f07415a10743c23f6dc45dc51527d4809f6f25a73fad0e257a24d5c"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6.1-sol__r2.png",
+      "bytes": 1734369,
+      "sha256": "8b25791c8de21ad22d5d035cc92cadea98f3dc0a9d01c115062b5391a41dc0c2"
+    },
+    {
+      "path": "results/20261007-main/overlays/gpt-6.1-sol__r3.png",
+      "bytes": 1730645,
+      "sha256": "24192e9eab952129c223279296454580e53b71d4fb4f4867a4b806e4bd86caa4"
+    },
+    {
+      "path": "results/20261007-main/overlays/kimi-k3__r1.png",
+      "bytes": 1749737,
+      "sha256": "ddcf7fe8c06c80a0d7430021cccc714e23051c71ab2a906c05ef8ddc1a8f0b6e"
+    },
+    {
+      "path": "results/20261007-main/overlays/kimi-k3__r2.png",
+      "bytes": 1752729,
+      "sha256": "fceced1d9a8e4309f0444fd13fbe440821ff8a9b50d1a760a940b31100ae0aa4"
+    },
+    {
+      "path": "results/20261007-main/overlays/kimi-k3__r3.png",
+      "bytes": 1759195,
+      "sha256": "220cdc6e0384c58ba6f864d758a19609152d596479639cc9f3f13e9c4df84268"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-flash__r1.png",
+      "bytes": 1748189,
+      "sha256": "04d42375b9fa191d2d192aa1b8714b49ede534e37739a1150ee66263825406a3"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-flash__r2.png",
+      "bytes": 1750032,
+      "sha256": "80aeeedb8b7152af0451af33d577e5fcf26e3e58b05744dba7517c417efd6a45"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-flash__r3.png",
+      "bytes": 1753062,
+      "sha256": "150dafe0c1f9bc609922b82b8c1c42d244c17987fc28911ae8e660d6963660cf"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-max__r1.png",
+      "bytes": 1753939,
+      "sha256": "46b39f8e4491d09cac2d84485253d433c4f43c38f044634f6790c26deeb54012"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-max__r2.png",
+      "bytes": 1749078,
+      "sha256": "b0012f9d520f6aa390226e178c815eb43a47df1225d57083b68be9bc3897b771"
+    },
+    {
+      "path": "results/20261007-main/overlays/qwen3.8-max__r3.png",
+      "bytes": 1750121,
+      "sha256": "6116177b8d1430debec7e78b5394428eb23e6b8d4405efea5d9a1f494af78db3"
+    },
+    {
+      "path": "results/20261007-main/parsed/deepseek-v4.1-flash__r1.json",
+      "bytes": 6235,
+      "sha256": "4150094fdf81370a41e2029892f6fd6a97f96034239de09833b05c01c6fcb057"
+    },
+    {
+      "path": "results/20261007-main/parsed/deepseek-v4.1-flash__r2.json",
+      "bytes": 7284,
+      "sha256": "ff333de23aa621d8e6c31488fa87fa4d71863e7c791c228f29ea1b8ac9161157"
+    },
+    {
+      "path": "results/20261007-main/parsed/deepseek-v4.1-flash__r3.json",
+      "bytes": 7369,
+      "sha256": "7d03615af4d292a611efdcd6521449cbd360b8c7f0f4719a89a6902f6c459565"
+    },
+    {
+      "path": "results/20261007-main/parsed/gemini-3.8-flash__r1.json",
+      "bytes": 4655,
+      "sha256": "56d6023e156a4800fcb375629593871623ea9a8404dd4c0fb3dfefcd08cb950c"
+    },
+    {
+      "path": "results/20261007-main/parsed/gemini-3.8-flash__r2.json",
+      "bytes": 4912,
+      "sha256": "d76cdfc69156971f1d0ed9908a315280709d3bafade7c38926f91be7b178ff9e"
+    },
+    {
+      "path": "results/20261007-main/parsed/gemini-3.8-flash__r3.json",
+      "bytes": 4519,
+      "sha256": "c38e46602f0fb68ea227a14a499137a347d7dd5ff3a429af474ac6d2dec93161"
+    },
+    {
+      "path": "results/20261007-main/parsed/glm-5.3-flash__r1.json",
+      "bytes": 86,
+      "sha256": "d2a1788fe26d3e5c4ac93f746a114a50c29903856883a379c9eef6af39d65683"
+    },
+    {
+      "path": "results/20261007-main/parsed/glm-5.3-flash__r2.json",
+      "bytes": 3850,
+      "sha256": "cc7ad2165a5ffceade8dfcd377b72e59ae56f8ecc56b095945c584684e963567"
+    },
+    {
+      "path": "results/20261007-main/parsed/glm-5.3-flash__r3.json",
+      "bytes": 4529,
+      "sha256": "68068f6ac01281f5fbcf723704017d86b3f4b0308cd31caf99f66c1c31e34a96"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6-luna__r1.json",
+      "bytes": 6889,
+      "sha256": "1ae6d6efdcbdc86393e853332215f7ac04d07d9a2be812521ae579a23e7a356a"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6-luna__r2.json",
+      "bytes": 7340,
+      "sha256": "4dcbd10a22c51d8df49e55cf320906ba9d06b8b824fccc0c762713cceb457fab"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6-luna__r3.json",
+      "bytes": 5822,
+      "sha256": "3b21620d59bf63a1923041cc93681a4fc1afe0248dc5de94665be5f1b0914725"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6.1-sol__r1.json",
+      "bytes": 7258,
+      "sha256": "afc40d4d394b4bbfbc69ba08c2a6ecec3ee0acb95a255e76d4134aef2f58fa8d"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6.1-sol__r2.json",
+      "bytes": 6866,
+      "sha256": "8007d52f1f64951804cf9033569734f9663ed94a9247f50d694ecd06b8f7d00a"
+    },
+    {
+      "path": "results/20261007-main/parsed/gpt-6.1-sol__r3.json",
+      "bytes": 7130,
+      "sha256": "e0466e3d0ef4bcb9f1bdee2191f1b0b41e62091bbaf0c8c99fcb6c98df15796e"
+    },
+    {
+      "path": "results/20261007-main/parsed/kimi-k3__r1.json",
+      "bytes": 5277,
+      "sha256": "04f83a4316a07827770a39cfa60e700c0730937f05ee656e58a0dcd020369089"
+    },
+    {
+      "path": "results/20261007-main/parsed/kimi-k3__r2.json",
+      "bytes": 4629,
+      "sha256": "cdc78e013fa115bc6df5c166269f3b5ea9eeb101e9a371fceb22d77e52b04042"
+    },
+    {
+      "path": "results/20261007-main/parsed/kimi-k3__r3.json",
+      "bytes": 3967,
+      "sha256": "6e4e17bd447f64d22901df110cfdaed445d315dab90287d76bfcead59e8e96a9"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-flash__r1.json",
+      "bytes": 5663,
+      "sha256": "f6195b25c5f5a39852254e1cc18fd90ae2d1e226b17b88e60795f2e70d25f7fa"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-flash__r2.json",
+      "bytes": 5019,
+      "sha256": "794ce2227294806e10b8a8f5ae5eb61289d19d00555043500d3bcb262332ccbc"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-flash__r3.json",
+      "bytes": 4884,
+      "sha256": "bd47e197392680b0966fdda0793153136c7c5474c278eac6d2e265843310c5c7"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-max__r1.json",
+      "bytes": 4131,
+      "sha256": "69d51d3853f91ec931ea43fb8b6bea30e00ca6eeed5f59db7fa56d3873837ffd"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-max__r2.json",
+      "bytes": 5406,
+      "sha256": "62fbcc9b72ae5123cb084cb7f4ee97f9aa86ee2432da668cf4f654bdda934645"
+    },
+    {
+      "path": "results/20261007-main/parsed/qwen3.8-max__r3.json",
+      "bytes": 4652,
+      "sha256": "260ad4b320cd9d037d612cde668bd716b50c640be1349fe27921eb23555d7284"
+    },
+    {
+      "path": "results/20261007-main/raw/deepseek-v4.1-flash__r1.json",
+      "bytes": 10431,
+      "sha256": "cc0ebdf6a87a0de7654084a1d3b9f72121dd9b86af6363cd0c1f5c69680a10b2"
+    },
+    {
+      "path": "results/20261007-main/raw/deepseek-v4.1-flash__r2.json",
+      "bytes": 11484,
+      "sha256": "8c79a4b7e85c462a672ed4a692cb37db78bfcdabcc8a69798cfb5c8f7ece3a77"
+    },
+    {
+      "path": "results/20261007-main/raw/deepseek-v4.1-flash__r3.json",
+      "bytes": 11642,
+      "sha256": "950b3ab0ea59af9280d5db245409749378be43eb53a264309b50f87885113edf"
+    },
+    {
+      "path": "results/20261007-main/raw/gemini-3.8-flash__r1.json",
+      "bytes": 8990,
+      "sha256": "df8d3b59376f6e121b7fd810ac73171fb65e9503dd08dc8d48d45a7922172ce9"
+    },
+    {
+      "path": "results/20261007-main/raw/gemini-3.8-flash__r2.json",
+      "bytes": 9265,
+      "sha256": "a01cbab9804e8f4001182fa9ceb608886618442b51bae06163b2df23b16dcadc"
+    },
+    {
+      "path": "results/20261007-main/raw/gemini-3.8-flash__r3.json",
+      "bytes": 8831,
+      "sha256": "1994c954ea978f379df95a7a7760e01feefaec8279538b3d531daef89653f1b1"
+    },
+    {
+      "path": "results/20261007-main/raw/glm-5.3-flash__r1.json",
+      "bytes": 4151,
+      "sha256": "ba5156dbda9ba0ee527f895cdf42dfc6ada472fa11fd33a8633709cb24652a57"
+    },
+    {
+      "path": "results/20261007-main/raw/glm-5.3-flash__r2.json",
+      "bytes": 6991,
+      "sha256": "870c2d66c23dd305137beaed8aeeb9e4fc275638141f695a98914ce79e21a5f8"
+    },
+    {
+      "path": "results/20261007-main/raw/glm-5.3-flash__r3.json",
+      "bytes": 8060,
+      "sha256": "dbad9693b1a9e3ff9f7c21db765315d150df6e697deabe520a524a6bea841fdc"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6-luna__r1.json",
+      "bytes": 10231,
+      "sha256": "b6e612d8492d93e1b91ca7f7a4b65f61f013daa1623d2be47db99ecb8c1d43f6"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6-luna__r2.json",
+      "bytes": 10694,
+      "sha256": "a259847f7ee29d75e981b357056b46d987efed4f64c3253462ed59175037f024"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6-luna__r3.json",
+      "bytes": 9281,
+      "sha256": "c784d52c8cf3731f344fd2ac47bc42533e7a2f3ca75b8bda958787e50df09697"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6.1-sol__r1.json",
+      "bytes": 10637,
+      "sha256": "107f64fb1296672dc704f511b6603aadc2925007d7707f71932e8fe32327190c"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6.1-sol__r2.json",
+      "bytes": 10264,
+      "sha256": "4707ed241fc62db4c812ec881f9e2f08a00e1191df3d42bab100aa11b3947eb6"
+    },
+    {
+      "path": "results/20261007-main/raw/gpt-6.1-sol__r3.json",
+      "bytes": 10525,
+      "sha256": "ed670819879a9ca70c63bdecbe99b12927da6fcc06698134bb1b71023c379397"
+    },
+    {
+      "path": "results/20261007-main/raw/kimi-k3__r1.json",
+      "bytes": 9330,
+      "sha256": "f50d762799523a709763dc31d2488dd4a89e3d7ffadbeaf48088b5a196a48d23"
+    },
+    {
+      "path": "results/20261007-main/raw/kimi-k3__r2.json",
+      "bytes": 8720,
+      "sha256": "a66e120345b7942e248410ff2e20ecd81c63c925189f0282abf307ba47e83bbf"
+    },
+    {
+      "path": "results/20261007-main/raw/kimi-k3__r3.json",
+      "bytes": 8057,
+      "sha256": "ccbea0b6670273ce2d4f4b2acb87afe472fc19ce4158cc361592946cd4cbec8c"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-flash__r1.json",
+      "bytes": 9810,
+      "sha256": "1976d624d082b33d08da8d5078dcb5aa75b41f17f0c3f46ff577401bee281db2"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-flash__r2.json",
+      "bytes": 9197,
+      "sha256": "fb848b2818091c22e98ac4300733c5258a678228d64b1f17b7d058e037f81645"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-flash__r3.json",
+      "bytes": 9070,
+      "sha256": "f78df111c43a29cd72d7b1f56b128251bc298f48d56c547ad613408168dd2c85"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-max__r1.json",
+      "bytes": 8471,
+      "sha256": "2128e21191e720ff11bd4a14ef4721794a2d43fbafcb1d45ea229ada104ef35d"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-max__r2.json",
+      "bytes": 9871,
+      "sha256": "2ac90bd97e18af7e8d0e10efdffd1f1dacebe89b71a3e4696b2bc8d7c70bf9b4"
+    },
+    {
+      "path": "results/20261007-main/raw/qwen3.8-max__r3.json",
+      "bytes": 9053,
+      "sha256": "e62e51ece4bb267d35d45105a7f1df9dd51a5af360d6e8dceadb1ecac295a00a"
+    },
+    {
+      "path": "results/20261007-native/run.json",
+      "bytes": 1294,
+      "sha256": "00d4b6aeab0d18657daefa188ccabb3333baeeb17c57abed825838b0ba363fd2"
+    },
+    {
+      "path": "results/20261007-native/scores.csv",
+      "bytes": 3406,
+      "sha256": "aeb2f36e1766a72e3e58b3d4cd2a8cae6e3276ac9dcd30ff3e5b53b1f3a04af8"
+    },
+    {
+      "path": "results/20261007-native/summary.md",
+      "bytes": 2557,
+      "sha256": "aaa7d33d215c1253321e623e77a98a95cbf676beeeec0d9a885257e01b483578"
+    },
+    {
+      "path": "results/20261007-native/geojson/gemini-3.8-flash__r1.geojson",
+      "bytes": 32902,
+      "sha256": "51da120f5008e7115b5a6f7c04949995040eec75be48692714742d42e918f308"
+    },
+    {
+      "path": "results/20261007-native/geojson/gemini-3.8-flash__r2.geojson",
+      "bytes": 30392,
+      "sha256": "a105e9286fed0688dd1d0c505a77f31254e34fc249e2eca0c4781e7a56a7fdf5"
+    },
+    {
+      "path": "results/20261007-native/geojson/gemini-3.8-flash__r3.geojson",
+      "bytes": 26195,
+      "sha256": "a32be39329366d20c8d906a0c32b433411c8e30fef567c672c435f489eb3c068"
+    },
+    {
+      "path": "results/20261007-native/geojson/gt-manual.geojson",
+      "bytes": 31498,
+      "sha256": "d46da7a87faa46cdaa1c6fced7be68b2010e974bab26a414c5188c9871530ce3"
+    },
+    {
+      "path": "results/20261007-native/geojson/kimi-k3__r1.geojson",
+      "bytes": 28140,
+      "sha256": "593aadd958ae7e5daa941f67141ad7ad49cc1d28a3d50dd7ef8ae34967974514"
+    },
+    {
+      "path": "results/20261007-native/geojson/kimi-k3__r2.geojson",
+      "bytes": 19601,
+      "sha256": "40137db641d25d17d7b0e7f3cfe36cb9715478c644ba9a7e5c3ed8bc792f8a21"
+    },
+    {
+      "path": "results/20261007-native/geojson/kimi-k3__r3.geojson",
+      "bytes": 23920,
+      "sha256": "47baa35b6bd151f838547f1b748d7a320a284e0a0f7743ed3e5f1fe890fc0d6c"
+    },
+    {
+      "path": "results/20261007-native/overlays/gemini-3.8-flash__r1.png",
+      "bytes": 1746083,
+      "sha256": "31ff1eeaf69b964ec4deab62a89f56289a2c157e5f55dd4bbc1df6f6f7ac40fb"
+    },
+    {
+      "path": "results/20261007-native/overlays/gemini-3.8-flash__r2.png",
+      "bytes": 1747549,
+      "sha256": "5df9b0e00f028cbc965a57c210f3f9dcb91ce5cdebb94c2eb996c336d7d19e0e"
+    },
+    {
+      "path": "results/20261007-native/overlays/gemini-3.8-flash__r3.png",
+      "bytes": 1749877,
+      "sha256": "1406e8a49e9d5e60382c7923119276acde255572ecd3e5b9299b7e306e1cf99c"
+    },
+    {
+      "path": "results/20261007-native/overlays/kimi-k3__r1.png",
+      "bytes": 1752922,
+      "sha256": "5cbcb6c101e6c3193f89f0872bee80e7b04a518cb978d36cbe42eea6a80e73ac"
+    },
+    {
+      "path": "results/20261007-native/overlays/kimi-k3__r2.png",
+      "bytes": 1761469,
+      "sha256": "277a1383cfae6fe077efb6bbc7274cd0819ee0308965c203e09c333510712211"
+    },
+    {
+      "path": "results/20261007-native/overlays/kimi-k3__r3.png",
+      "bytes": 1758134,
+      "sha256": "df176a3fc4062d48a50851acc020505b6a4adcaddc22f4efb656d5806c58171e"
+    },
+    {
+      "path": "results/20261007-native/parsed/gemini-3.8-flash__r1.json",
+      "bytes": 5171,
+      "sha256": "7df9ae3225df9c7760761dea7fb4b18b2958d8a441546f147008779ed9fb2ae5"
+    },
+    {
+      "path": "results/20261007-native/parsed/gemini-3.8-flash__r2.json",
+      "bytes": 4779,
+      "sha256": "db618989a73c467c2a1703e6663cd025c95c6c9469ef513af184dc44202b0945"
+    },
+    {
+      "path": "results/20261007-native/parsed/gemini-3.8-flash__r3.json",
+      "bytes": 4134,
+      "sha256": "156838904929ab49f40631f90338b81fe1c7ed46a23691d09e611b56cbccc97d"
+    },
+    {
+      "path": "results/20261007-native/parsed/kimi-k3__r1.json",
+      "bytes": 4382,
+      "sha256": "5b4c340f23098043fd78c44ed7cc0054d7065f6a001f2ca963dea517d96ddb01"
+    },
+    {
+      "path": "results/20261007-native/parsed/kimi-k3__r2.json",
+      "bytes": 3065,
+      "sha256": "2689599beabc39f9affde77a0f746d1ee807a3edb70d1d56d4fa7aecb2010df6"
+    },
+    {
+      "path": "results/20261007-native/parsed/kimi-k3__r3.json",
+      "bytes": 3723,
+      "sha256": "e7acca54ce2726c8019b58ecc3457db3486be5511a9a64a19831146a13f9cc9d"
+    },
+    {
+      "path": "results/20261007-native/raw/gemini-3.8-flash__r1.json",
+      "bytes": 9555,
+      "sha256": "e3c939220a438f7f2a451fbef6054e01c813ea400510b82e06ff6160297bd9d3"
+    },
+    {
+      "path": "results/20261007-native/raw/gemini-3.8-flash__r2.json",
+      "bytes": 9143,
+      "sha256": "7c0b6322e7c4dcb6f1052a5403cc85f7473bff2feaa5e941e93c4aef2baec778"
+    },
+    {
+      "path": "results/20261007-native/raw/gemini-3.8-flash__r3.json",
+      "bytes": 7851,
+      "sha256": "54d6e87db2daa8a8797ea16c99b657f08ab7b46987754082bf119261e336c922"
+    },
+    {
+      "path": "results/20261007-native/raw/kimi-k3__r1.json",
+      "bytes": 7924,
+      "sha256": "42d7f9a832afdc1380c2f7922e2e4edfc1fbb8f4ad7f0df03663617355456f04"
+    },
+    {
+      "path": "results/20261007-native/raw/kimi-k3__r2.json",
+      "bytes": 6625,
+      "sha256": "4cde08ce5723c8670500cd1fedd60edc63a5ae1a58ca20de1120c777a957f958"
+    },
+    {
+      "path": "results/20261007-native/raw/kimi-k3__r3.json",
+      "bytes": 7273,
+      "sha256": "8f60a8e5cdc40a0f2ae84097dba0b75a4dcf3aaf9229fff341e395820a8a1a3d"
+    },
+    {
+      "path": "sources/openrouter-models-20261007.json",
+      "bytes": 66862,
+      "sha256": "df076c9aecf4e06eba5a70f82c3046baf63eea43310cd43ebf9a77e6f661b59e"
+    }
+  ],
+  "validation": {
+    "tests": "..................................................                       [100%]\n50 passed in 0.37s",
+    "secret_scan": {
+      "files": 165,
+      "known_secrets_checked": 3,
+      "findings": 0
+    },
+    "reproduced": [
+      {
+        "run": "20261007-main",
+        "calls": 24,
+        "metrics_match": true,
+        "all_overlay_hashes_match": true
+      },
+      {
+        "run": "20261007-native",
+        "calls": 6,
+        "metrics_match": true,
+        "all_overlay_hashes_match": true
+      }
+    ]
+  }
+}

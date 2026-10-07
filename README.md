@@ -10,6 +10,7 @@
 |------|------|------|
 | [kongnet-vs-classpose](projects/kongnet-vs-classpose/) | KongNet 与 ClassPose 病理核检测对比：Windows 整片推理 + QuPath 回显 | ✅ 可用 |
 | [nnfoundation-tumseg-ct](projects/nnfoundation-tumseg-ct/) | nnFoundation 小鼠肿瘤 CT：两例微调、四例开发性复测、远端清理及完整证据 | ✅ 代码与结果 |
+| [mllm-renal-tubule-bbox](projects/mllm-renal-tubule-bbox/) | 八个多模态模型框选肾小管：提示词、原图与标注、30次调用结果、成本速度与离线复算 | ✅ 代码、图像与结果 |
 
 ## 快速开始
 

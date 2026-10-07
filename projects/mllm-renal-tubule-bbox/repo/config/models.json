@@ -1,0 +1,69 @@
+{
+  "_comment": "OpenRouter model ids resolved on 2026-10-07 against GET https://openrouter.ai/api/v1/models. 'key' is the stable short name used in result file names. 'requested_as' is the user's original wording. The two Qwen ids were confirmed by the user on 2026-10-07. Set enabled=false to skip a model.",
+  "models": [
+    {
+      "key": "gpt-6.1-sol",
+      "label": "GPT-6.1 Sol",
+      "id": "openai/gpt-6.1-sol",
+      "requested_as": "6.1 sol",
+      "enabled": true,
+      "note": "openai/gpt-6.1-sol-pro also exists; the non-pro model was chosen."
+    },
+    {
+      "key": "gpt-6-luna",
+      "label": "GPT-6 Luna",
+      "id": "openai/gpt-6-luna",
+      "requested_as": "GPT 6 luna",
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "gemini-3.8-flash",
+      "label": "Gemini 3.8 Flash",
+      "id": "google/gemini-3.8-flash",
+      "requested_as": "Gemini 3.8 flash",
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "qwen3.8-max",
+      "label": "Qwen3.8 Max (0902)",
+      "id": "qwen/qwen3.8-max-0902",
+      "requested_as": "qwen 3.8 Max",
+      "enabled": true,
+      "note": "Dated Max snapshot, confirmed by the user. qwen/qwen3.8-max-prime is a different, pricier SKU and is not used."
+    },
+    {
+      "key": "qwen3.8-flash",
+      "label": "Qwen3.8 Flash",
+      "id": "qwen/qwen3.8-flash",
+      "requested_as": "qwen 3.8 flash next",
+      "enabled": true,
+      "note": "Confirmed by the user as the model meant by 'qwen 3.8 flash next'."
+    },
+    {
+      "key": "deepseek-v4.1-flash",
+      "label": "DeepSeek V4.1 Flash",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "requested_as": "deepseek flash 4.1",
+      "enabled": true,
+      "note": "Accepts image input. deepseek-v4-flash and deepseek-v4-flash-0731 are text-only."
+    },
+    {
+      "key": "glm-5.3-flash",
+      "label": "GLM 5.3 Flash",
+      "id": "z-ai/glm-5.3-flash",
+      "requested_as": "GLM 5.3 flash",
+      "enabled": true,
+      "note": "z-ai/glm-5.3-flashx is the faster variant and is not used."
+    },
+    {
+      "key": "kimi-k3",
+      "label": "Kimi K3",
+      "id": "moonshotai/kimi-k3",
+      "requested_as": "Kimi 3",
+      "enabled": true,
+      "note": ""
+    }
+  ]
+}

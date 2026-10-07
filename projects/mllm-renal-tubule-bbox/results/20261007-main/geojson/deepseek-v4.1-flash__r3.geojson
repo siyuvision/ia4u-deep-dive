@@ -1,0 +1,2077 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.395189003436426,
+              15.82
+            ],
+            [
+              128.0,
+              15.82
+            ],
+            [
+              128.0,
+              102.83000000000001
+            ],
+            [
+              15.395189003436426,
+              102.83000000000001
+            ],
+            [
+              15.395189003436426,
+              15.82
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              286.7463917525774,
+              3.955
+            ],
+            [
+              409.6439862542955,
+              3.955
+            ],
+            [
+              409.6439862542955,
+              98.875
+            ],
+            [
+              286.7463917525774,
+              98.875
+            ],
+            [
+              286.7463917525774,
+              3.955
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              419.8487972508591,
+              3.955
+            ],
+            [
+              542.7463917525773,
+              3.955
+            ],
+            [
+              542.7463917525773,
+              98.875
+            ],
+            [
+              419.8487972508591,
+              98.875
+            ],
+            [
+              419.8487972508591,
+              3.955
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              573.4487972508591,
+              15.82
+            ],
+            [
+              696.3463917525773,
+              15.82
+            ],
+            [
+              696.3463917525773,
+              110.74000000000001
+            ],
+            [
+              573.4487972508591,
+              110.74000000000001
+            ],
+            [
+              573.4487972508591,
+              15.82
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              860.1512027491408,
+              11.865
+            ],
+            [
+              983.0487972508589,
+              11.865
+            ],
+            [
+              983.0487972508589,
+              98.875
+            ],
+            [
+              860.1512027491408,
+              98.875
+            ],
+            [
+              860.1512027491408,
+              11.865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.50240549828177,
+              75.14500000000001
+            ],
+            [
+              220.10721649484535,
+              75.14500000000001
+            ],
+            [
+              220.10721649484535,
+              162.155
+            ],
+            [
+              107.50240549828177,
+              162.155
+            ],
+            [
+              107.50240549828177,
+              75.14500000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              250.8975945017182,
+              83.055
+            ],
+            [
+              363.50240549828175,
+              83.055
+            ],
+            [
+              363.50240549828175,
+              170.065
+            ],
+            [
+              250.8975945017182,
+              170.065
+            ],
+            [
+              250.8975945017182,
+              83.055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              435.20000000000005,
+              90.965
+            ],
+            [
+              547.8048109965636,
+              90.965
+            ],
+            [
+              547.8048109965636,
+              177.97500000000002
+            ],
+            [
+              435.20000000000005,
+              177.97500000000002
+            ],
+            [
+              435.20000000000005,
+              90.965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              609.2975945017182,
+              83.055
+            ],
+            [
+              721.9024054982818,
+              83.055
+            ],
+            [
+              721.9024054982818,
+              170.065
+            ],
+            [
+              609.2975945017182,
+              170.065
+            ],
+            [
+              609.2975945017182,
+              83.055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              783.3951890034364,
+              98.875
+            ],
+            [
+              896.0,
+              98.875
+            ],
+            [
+              896.0,
+              185.88500000000002
+            ],
+            [
+              783.3951890034364,
+              185.88500000000002
+            ],
+            [
+              783.3951890034364,
+              98.875
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.599999999999994,
+              154.245
+            ],
+            [
+              138.20481099656357,
+              154.245
+            ],
+            [
+              138.20481099656357,
+              241.25500000000002
+            ],
+            [
+              25.599999999999994,
+              241.25500000000002
+            ],
+            [
+              25.599999999999994,
+              154.245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              168.99518900343645,
+              162.155
+            ],
+            [
+              281.6,
+              162.155
+            ],
+            [
+              281.6,
+              249.16500000000002
+            ],
+            [
+              168.99518900343645,
+              249.16500000000002
+            ],
+            [
+              168.99518900343645,
+              162.155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              332.8,
+              154.245
+            ],
+            [
+              445.4048109965636,
+              154.245
+            ],
+            [
+              445.4048109965636,
+              241.25500000000002
+            ],
+            [
+              332.8,
+              241.25500000000002
+            ],
+            [
+              332.8,
+              154.245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              496.69278350515464,
+              170.065
+            ],
+            [
+              609.2975945017182,
+              170.065
+            ],
+            [
+              609.2975945017182,
+              257.075
+            ],
+            [
+              496.69278350515464,
+              257.075
+            ],
+            [
+              496.69278350515464,
+              170.065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              660.4975945017181,
+              177.97500000000002
+            ],
+            [
+              773.1024054982818,
+              177.97500000000002
+            ],
+            [
+              773.1024054982818,
+              264.985
+            ],
+            [
+              660.4975945017181,
+              264.985
+            ],
+            [
+              660.4975945017181,
+              177.97500000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              824.3024054982818,
+              170.065
+            ],
+            [
+              936.9072164948453,
+              170.065
+            ],
+            [
+              936.9072164948453,
+              257.075
+            ],
+            [
+              824.3024054982818,
+              257.075
+            ],
+            [
+              824.3024054982818,
+              170.065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.09278350515464,
+              217.525
+            ],
+            [
+              199.6975945017182,
+              217.525
+            ],
+            [
+              199.6975945017182,
+              304.535
+            ],
+            [
+              87.09278350515464,
+              304.535
+            ],
+            [
+              87.09278350515464,
+              217.525
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              230.39999999999998,
+              225.435
+            ],
+            [
+              343.00481099656355,
+              225.435
+            ],
+            [
+              343.00481099656355,
+              312.445
+            ],
+            [
+              230.39999999999998,
+              312.445
+            ],
+            [
+              230.39999999999998,
+              225.435
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              373.7951890034364,
+              233.34500000000003
+            ],
+            [
+              486.4,
+              233.34500000000003
+            ],
+            [
+              486.4,
+              320.355
+            ],
+            [
+              373.7951890034364,
+              320.355
+            ],
+            [
+              373.7951890034364,
+              233.34500000000003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              517.1024054982818,
+              241.25500000000002
+            ],
+            [
+              629.7072164948453,
+              241.25500000000002
+            ],
+            [
+              629.7072164948453,
+              328.26500000000004
+            ],
+            [
+              517.1024054982818,
+              328.26500000000004
+            ],
+            [
+              517.1024054982818,
+              241.25500000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              660.4975945017181,
+              249.16500000000002
+            ],
+            [
+              773.1024054982818,
+              249.16500000000002
+            ],
+            [
+              773.1024054982818,
+              336.175
+            ],
+            [
+              660.4975945017181,
+              336.175
+            ],
+            [
+              660.4975945017181,
+              249.16500000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              803.8927835051546,
+              241.25500000000002
+            ],
+            [
+              916.4975945017181,
+              241.25500000000002
+            ],
+            [
+              916.4975945017181,
+              328.26500000000004
+            ],
+            [
+              803.8927835051546,
+              328.26500000000004
+            ],
+            [
+              803.8927835051546,
+              241.25500000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.102405498281784,
+              312.445
+            ],
+            [
+              117.70721649484537,
+              312.445
+            ],
+            [
+              117.70721649484537,
+              399.45500000000004
+            ],
+            [
+              5.102405498281784,
+              399.45500000000004
+            ],
+            [
+              5.102405498281784,
+              312.445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.49759450171823,
+              320.355
+            ],
+            [
+              261.10240549828177,
+              320.355
+            ],
+            [
+              261.10240549828177,
+              407.365
+            ],
+            [
+              148.49759450171823,
+              407.365
+            ],
+            [
+              148.49759450171823,
+              320.355
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              291.8927835051546,
+              312.445
+            ],
+            [
+              404.4975945017182,
+              312.445
+            ],
+            [
+              404.4975945017182,
+              399.45500000000004
+            ],
+            [
+              291.8927835051546,
+              399.45500000000004
+            ],
+            [
+              291.8927835051546,
+              312.445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              435.20000000000005,
+              328.26500000000004
+            ],
+            [
+              547.8048109965636,
+              328.26500000000004
+            ],
+            [
+              547.8048109965636,
+              415.27500000000003
+            ],
+            [
+              435.20000000000005,
+              415.27500000000003
+            ],
+            [
+              435.20000000000005,
+              328.26500000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              578.5951890034364,
+              320.355
+            ],
+            [
+              691.2,
+              320.355
+            ],
+            [
+              691.2,
+              407.365
+            ],
+            [
+              578.5951890034364,
+              407.365
+            ],
+            [
+              578.5951890034364,
+              320.355
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              721.9024054982818,
+              328.26500000000004
+            ],
+            [
+              834.5072164948454,
+              328.26500000000004
+            ],
+            [
+              834.5072164948454,
+              415.27500000000003
+            ],
+            [
+              721.9024054982818,
+              415.27500000000003
+            ],
+            [
+              721.9024054982818,
+              328.26500000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              865.2975945017181,
+              336.175
+            ],
+            [
+              977.9024054982817,
+              336.175
+            ],
+            [
+              977.9024054982817,
+              423.185
+            ],
+            [
+              865.2975945017181,
+              423.185
+            ],
+            [
+              865.2975945017181,
+              336.175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.59518900343642,
+              391.545
+            ],
+            [
+              179.2,
+              391.545
+            ],
+            [
+              179.2,
+              478.555
+            ],
+            [
+              66.59518900343642,
+              478.555
+            ],
+            [
+              66.59518900343642,
+              391.545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              209.9024054982818,
+              399.45500000000004
+            ],
+            [
+              322.50721649484535,
+              399.45500000000004
+            ],
+            [
+              322.50721649484535,
+              486.46500000000003
+            ],
+            [
+              209.9024054982818,
+              486.46500000000003
+            ],
+            [
+              209.9024054982818,
+              399.45500000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353.2975945017182,
+              407.365
+            ],
+            [
+              465.9024054982818,
+              407.365
+            ],
+            [
+              465.9024054982818,
+              494.37500000000006
+            ],
+            [
+              353.2975945017182,
+              494.37500000000006
+            ],
+            [
+              353.2975945017182,
+              407.365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              496.69278350515464,
+              391.545
+            ],
+            [
+              609.2975945017182,
+              391.545
+            ],
+            [
+              609.2975945017182,
+              478.555
+            ],
+            [
+              496.69278350515464,
+              478.555
+            ],
+            [
+              496.69278350515464,
+              391.545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              640.0,
+              399.45500000000004
+            ],
+            [
+              752.6048109965635,
+              399.45500000000004
+            ],
+            [
+              752.6048109965635,
+              486.46500000000003
+            ],
+            [
+              640.0,
+              486.46500000000003
+            ],
+            [
+              640.0,
+              399.45500000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              783.3951890034364,
+              407.365
+            ],
+            [
+              896.0,
+              407.365
+            ],
+            [
+              896.0,
+              494.37500000000006
+            ],
+            [
+              783.3951890034364,
+              494.37500000000006
+            ],
+            [
+              783.3951890034364,
+              407.365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.599999999999994,
+              478.555
+            ],
+            [
+              138.20481099656357,
+              478.555
+            ],
+            [
+              138.20481099656357,
+              565.565
+            ],
+            [
+              25.599999999999994,
+              565.565
+            ],
+            [
+              25.599999999999994,
+              478.555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              168.99518900343645,
+              486.46500000000003
+            ],
+            [
+              281.6,
+              486.46500000000003
+            ],
+            [
+              281.6,
+              573.475
+            ],
+            [
+              168.99518900343645,
+              573.475
+            ],
+            [
+              168.99518900343645,
+              486.46500000000003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              312.30240549828176,
+              494.37500000000006
+            ],
+            [
+              424.90721649484533,
+              494.37500000000006
+            ],
+            [
+              424.90721649484533,
+              581.385
+            ],
+            [
+              312.30240549828176,
+              581.385
+            ],
+            [
+              312.30240549828176,
+              494.37500000000006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              455.6975945017182,
+              478.555
+            ],
+            [
+              568.3024054982818,
+              478.555
+            ],
+            [
+              568.3024054982818,
+              565.565
+            ],
+            [
+              455.6975945017182,
+              565.565
+            ],
+            [
+              455.6975945017182,
+              478.555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              599.0927835051547,
+              494.37500000000006
+            ],
+            [
+              711.6975945017182,
+              494.37500000000006
+            ],
+            [
+              711.6975945017182,
+              581.385
+            ],
+            [
+              599.0927835051547,
+              581.385
+            ],
+            [
+              599.0927835051547,
+              494.37500000000006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              742.4,
+              486.46500000000003
+            ],
+            [
+              855.0048109965635,
+              486.46500000000003
+            ],
+            [
+              855.0048109965635,
+              573.475
+            ],
+            [
+              742.4,
+              573.475
+            ],
+            [
+              742.4,
+              486.46500000000003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              885.7951890034365,
+              494.37500000000006
+            ],
+            [
+              998.4000000000001,
+              494.37500000000006
+            ],
+            [
+              998.4000000000001,
+              581.385
+            ],
+            [
+              885.7951890034365,
+              581.385
+            ],
+            [
+              885.7951890034365,
+              494.37500000000006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.50240549828177,
+              557.6550000000001
+            ],
+            [
+              220.10721649484535,
+              557.6550000000001
+            ],
+            [
+              220.10721649484535,
+              644.6650000000001
+            ],
+            [
+              107.50240549828177,
+              644.6650000000001
+            ],
+            [
+              107.50240549828177,
+              557.6550000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              250.8975945017182,
+              565.565
+            ],
+            [
+              363.50240549828175,
+              565.565
+            ],
+            [
+              363.50240549828175,
+              652.575
+            ],
+            [
+              250.8975945017182,
+              652.575
+            ],
+            [
+              250.8975945017182,
+              565.565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              394.29278350515466,
+              573.475
+            ],
+            [
+              506.89759450171823,
+              573.475
+            ],
+            [
+              506.89759450171823,
+              660.485
+            ],
+            [
+              394.29278350515466,
+              660.485
+            ],
+            [
+              394.29278350515466,
+              573.475
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              537.6,
+              557.6550000000001
+            ],
+            [
+              650.2048109965635,
+              557.6550000000001
+            ],
+            [
+              650.2048109965635,
+              644.6650000000001
+            ],
+            [
+              537.6,
+              644.6650000000001
+            ],
+            [
+              537.6,
+              557.6550000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              680.9951890034364,
+              573.475
+            ],
+            [
+              793.6,
+              573.475
+            ],
+            [
+              793.6,
+              660.485
+            ],
+            [
+              680.9951890034364,
+              660.485
+            ],
+            [
+              680.9951890034364,
+              573.475
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              824.3024054982818,
+              565.565
+            ],
+            [
+              936.9072164948453,
+              565.565
+            ],
+            [
+              936.9072164948453,
+              652.575
+            ],
+            [
+              824.3024054982818,
+              652.575
+            ],
+            [
+              824.3024054982818,
+              565.565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.09759450171822,
+              628.845
+            ],
+            [
+              158.7024054982818,
+              628.845
+            ],
+            [
+              158.7024054982818,
+              715.855
+            ],
+            [
+              46.09759450171822,
+              715.855
+            ],
+            [
+              46.09759450171822,
+              628.845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              189.49278350515462,
+              636.755
+            ],
+            [
+              302.09759450171816,
+              636.755
+            ],
+            [
+              302.09759450171816,
+              723.7650000000001
+            ],
+            [
+              189.49278350515462,
+              723.7650000000001
+            ],
+            [
+              189.49278350515462,
+              636.755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              332.8,
+              644.6650000000001
+            ],
+            [
+              445.4048109965636,
+              644.6650000000001
+            ],
+            [
+              445.4048109965636,
+              731.6750000000001
+            ],
+            [
+              332.8,
+              731.6750000000001
+            ],
+            [
+              332.8,
+              644.6650000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              476.1951890034364,
+              628.845
+            ],
+            [
+              588.8,
+              628.845
+            ],
+            [
+              588.8,
+              715.855
+            ],
+            [
+              476.1951890034364,
+              715.855
+            ],
+            [
+              476.1951890034364,
+              628.845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              619.5024054982819,
+              636.755
+            ],
+            [
+              732.1072164948454,
+              636.755
+            ],
+            [
+              732.1072164948454,
+              723.7650000000001
+            ],
+            [
+              619.5024054982819,
+              723.7650000000001
+            ],
+            [
+              619.5024054982819,
+              636.755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              762.8975945017182,
+              644.6650000000001
+            ],
+            [
+              875.5024054982819,
+              644.6650000000001
+            ],
+            [
+              875.5024054982819,
+              731.6750000000001
+            ],
+            [
+              762.8975945017182,
+              731.6750000000001
+            ],
+            [
+              762.8975945017182,
+              644.6650000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              906.2927835051547,
+              628.845
+            ],
+            [
+              1018.8975945017182,
+              628.845
+            ],
+            [
+              1018.8975945017182,
+              715.855
+            ],
+            [
+              906.2927835051547,
+              715.855
+            ],
+            [
+              906.2927835051547,
+              628.845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.50240549828177,
+              700.0350000000001
+            ],
+            [
+              220.10721649484535,
+              700.0350000000001
+            ],
+            [
+              220.10721649484535,
+              787.0450000000001
+            ],
+            [
+              107.50240549828177,
+              787.0450000000001
+            ],
+            [
+              107.50240549828177,
+              700.0350000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "objectType": "annotation",
+        "classification": {
+          "name": "renal tubule bbox"
+        },
+        "name": "bounding box, not segmentation"
+      }
+    }
+  ]
+}

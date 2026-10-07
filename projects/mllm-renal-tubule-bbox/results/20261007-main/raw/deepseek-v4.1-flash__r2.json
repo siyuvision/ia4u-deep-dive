@@ -1,0 +1,120 @@
+{
+  "model": {
+    "key": "deepseek-v4.1-flash",
+    "label": "DeepSeek V4.1 Flash",
+    "id": "deepseek/deepseek-v4.1-flash",
+    "requested_as": "deepseek flash 4.1",
+    "enabled": true,
+    "note": "Accepts image input. deepseek-v4-flash and deepseek-v4-flash-0731 are text-only."
+  },
+  "repeat": 2,
+  "created_utc": "2026-10-07T08:36:52.038086+00:00",
+  "request": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "max_tokens": 32000,
+    "usage": {
+      "include": true
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are looking at a hematoxylin and eosin (H&E) stained histology image of kidney tissue.\n\nTask: find every renal tubule that lies completely inside the image and return one axis-aligned bounding box per tubule.\n\nRules:\n- A renal tubule appears as a ring-shaped or oval cross-section of epithelial cells around a lumen. The box must enclose the whole tubule including its epithelial wall.\n- Only box tubules that are fully visible. Skip any tubule that is cut off by the image border.\n- Do not box glomeruli, blood vessels, interstitial tissue, or single cells.\n- Coordinates are [x_min, y_min, x_max, y_max]. The origin is the top-left corner of the image, x increases to the right and y increases downward. Each value is an integer from 0 to 1000, normalized by the image width for x and by the image height for y, so [0, 0, 1000, 1000] is the whole image.\n\nReply with a single JSON array and nothing else, in exactly this form:\n[{\"label\": \"renal tubule\", \"bbox_2d\": [x_min, y_min, x_max, y_max]}, ...]\n"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "<inline image 276874 bytes sha256=01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "call": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "object": "chat.completion",
+      "created": 1791362178,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "provider": "Parasail",
+      "usage": {
+        "prompt_tokens": 781,
+        "completion_tokens": 10129,
+        "total_tokens": 10910,
+        "cost": 0.0123891,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0123891,
+          "upstream_inference_prompt_cost": 0.0002343,
+          "upstream_inference_completions_cost": 0.0121548
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 8641,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "[{\"label\": \"renal tubule\", \"bbox_2d\": [20, 25, 115, 125]}, {\"label\": \"renal tubule\", \"bbox_2d\": [145, 25, 255, 130]}, {\"label\": \"renal tubule\", \"bbox_2d\": [295, 20, 400, 115]}, {\"label\": \"renal tubule\", \"bbox_2d\": [445, 15, 555, 115]}, {\"label\": \"renal tubule\", \"bbox_2d\": [595, 20, 705, 125]}, {\"label\": \"renal tubule\", \"bbox_2d\": [755, 15, 875, 130]}, {\"label\": \"renal tubule\", \"bbox_2d\": [80, 135, 190, 250]}, {\"label\": \"renal tubule\", \"bbox_2d\": [215, 125, 330, 245]}, {\"label\": \"renal tubule\", \"bbox_2d\": [355, 120, 475, 240]}, {\"label\": \"renal tubule\", \"bbox_2d\": [495, 130, 610, 235]}, {\"label\": \"renal tubule\", \"bbox_2d\": [635, 140, 755, 260]}, {\"label\": \"renal tubule\", \"bbox_2d\": [815, 145, 935, 265]}, {\"label\": \"renal tubule\", \"bbox_2d\": [25, 195, 130, 310]}, {\"label\": \"renal tubule\", \"bbox_2d\": [165, 190, 280, 315]}, {\"label\": \"renal tubule\", \"bbox_2d\": [305, 195, 425, 315]}, {\"label\": \"renal tubule\", \"bbox_2d\": [465, 200, 585, 320]}, {\"label\": \"renal tubule\", \"bbox_2d\": [615, 210, 735, 330]}, {\"label\": \"renal tubule\", \"bbox_2d\": [775, 215, 895, 335]}, {\"label\": \"renal tubule\", \"bbox_2d\": [75, 270, 185, 385]}, {\"label\": \"renal tubule\", \"bbox_2d\": [215, 280, 330, 395]}, {\"label\": \"renal tubule\", \"bbox_2d\": [355, 275, 475, 390]}, {\"label\": \"renal tubule\", \"bbox_2d\": [505, 285, 625, 405]}, {\"label\": \"renal tubule\", \"bbox_2d\": [655, 295, 775, 415]}, {\"label\": \"renal tubule\", \"bbox_2d\": [805, 315, 925, 435]}, {\"label\": \"renal tubule\", \"bbox_2d\": [20, 325, 120, 440]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 355, 260, 475]}, {\"label\": \"renal tubule\", \"bbox_2d\": [280, 375, 400, 495]}, {\"label\": \"renal tubule\", \"bbox_2d\": [425, 355, 550, 480]}, {\"label\": \"renal tubule\", \"bbox_2d\": [560, 375, 680, 495]}, {\"label\": \"renal tubule\", \"bbox_2d\": [690, 385, 810, 505]}, {\"label\": \"renal tubule\", \"bbox_2d\": [840, 395, 960, 515]}, {\"label\": \"renal tubule\", \"bbox_2d\": [30, 425, 150, 545]}, {\"label\": \"renal tubule\", \"bbox_2d\": [180, 455, 300, 575]}, {\"label\": \"renal tubule\", \"bbox_2d\": [320, 475, 440, 595]}, {\"label\": \"renal tubule\", \"bbox_2d\": [470, 485, 590, 615]}, {\"label\": \"renal tubule\", \"bbox_2d\": [620, 495, 740, 625]}, {\"label\": \"renal tubule\", \"bbox_2d\": [760, 505, 880, 635]}, {\"label\": \"renal tubule\", \"bbox_2d\": [95, 510, 215, 630]}, {\"label\": \"renal tubule\", \"bbox_2d\": [245, 525, 365, 645]}, {\"label\": \"renal tubule\", \"bbox_2d\": [395, 545, 515, 665]}, {\"label\": \"renal tubule\", \"bbox_2d\": [535, 555, 655, 675]}, {\"label\": \"renal tubule\", \"bbox_2d\": [685, 575, 805, 695]}, {\"label\": \"renal tubule\", \"bbox_2d\": [825, 585, 945, 705]}, {\"label\": \"renal tubule\", \"bbox_2d\": [40, 600, 160, 720]}, {\"label\": \"renal tubule\", \"bbox_2d\": [190, 625, 310, 745]}, {\"label\": \"renal tubule\", \"bbox_2d\": [340, 650, 460, 770]}, {\"label\": \"renal tubule\", \"bbox_2d\": [490, 670, 610, 790]}, {\"label\": \"renal tubule\", \"bbox_2d\": [640, 685, 760, 805]}, {\"label\": \"renal tubule\", \"bbox_2d\": [780, 705, 900, 825]}, {\"label\": \"renal tubule\", \"bbox_2d\": [70, 735, 190, 855]}, {\"label\": \"renal tubule\", \"bbox_2d\": [225, 750, 345, 870]}, {\"label\": \"renal tubule\", \"bbox_2d\": [375, 770, 495, 890]}, {\"label\": \"renal tubule\", \"bbox_2d\": [515, 785, 635, 905]}, {\"label\": \"renal tubule\", \"bbox_2d\": [665, 805, 785, 925]}, {\"label\": \"renal tubule\", \"bbox_2d\": [815, 825, 935, 945]}]",
+            "refusal": null
+          }
+        }
+      ]
+    },
+    "body_text": null,
+    "attempts": [
+      {
+        "status": 200,
+        "error": null,
+        "latency_s": 35.82799999997951
+      }
+    ],
+    "latency_s": 35.82799999997951
+  },
+  "text": "[{\"label\": \"renal tubule\", \"bbox_2d\": [20, 25, 115, 125]}, {\"label\": \"renal tubule\", \"bbox_2d\": [145, 25, 255, 130]}, {\"label\": \"renal tubule\", \"bbox_2d\": [295, 20, 400, 115]}, {\"label\": \"renal tubule\", \"bbox_2d\": [445, 15, 555, 115]}, {\"label\": \"renal tubule\", \"bbox_2d\": [595, 20, 705, 125]}, {\"label\": \"renal tubule\", \"bbox_2d\": [755, 15, 875, 130]}, {\"label\": \"renal tubule\", \"bbox_2d\": [80, 135, 190, 250]}, {\"label\": \"renal tubule\", \"bbox_2d\": [215, 125, 330, 245]}, {\"label\": \"renal tubule\", \"bbox_2d\": [355, 120, 475, 240]}, {\"label\": \"renal tubule\", \"bbox_2d\": [495, 130, 610, 235]}, {\"label\": \"renal tubule\", \"bbox_2d\": [635, 140, 755, 260]}, {\"label\": \"renal tubule\", \"bbox_2d\": [815, 145, 935, 265]}, {\"label\": \"renal tubule\", \"bbox_2d\": [25, 195, 130, 310]}, {\"label\": \"renal tubule\", \"bbox_2d\": [165, 190, 280, 315]}, {\"label\": \"renal tubule\", \"bbox_2d\": [305, 195, 425, 315]}, {\"label\": \"renal tubule\", \"bbox_2d\": [465, 200, 585, 320]}, {\"label\": \"renal tubule\", \"bbox_2d\": [615, 210, 735, 330]}, {\"label\": \"renal tubule\", \"bbox_2d\": [775, 215, 895, 335]}, {\"label\": \"renal tubule\", \"bbox_2d\": [75, 270, 185, 385]}, {\"label\": \"renal tubule\", \"bbox_2d\": [215, 280, 330, 395]}, {\"label\": \"renal tubule\", \"bbox_2d\": [355, 275, 475, 390]}, {\"label\": \"renal tubule\", \"bbox_2d\": [505, 285, 625, 405]}, {\"label\": \"renal tubule\", \"bbox_2d\": [655, 295, 775, 415]}, {\"label\": \"renal tubule\", \"bbox_2d\": [805, 315, 925, 435]}, {\"label\": \"renal tubule\", \"bbox_2d\": [20, 325, 120, 440]}, {\"label\": \"renal tubule\", \"bbox_2d\": [140, 355, 260, 475]}, {\"label\": \"renal tubule\", \"bbox_2d\": [280, 375, 400, 495]}, {\"label\": \"renal tubule\", \"bbox_2d\": [425, 355, 550, 480]}, {\"label\": \"renal tubule\", \"bbox_2d\": [560, 375, 680, 495]}, {\"label\": \"renal tubule\", \"bbox_2d\": [690, 385, 810, 505]}, {\"label\": \"renal tubule\", \"bbox_2d\": [840, 395, 960, 515]}, {\"label\": \"renal tubule\", \"bbox_2d\": [30, 425, 150, 545]}, {\"label\": \"renal tubule\", \"bbox_2d\": [180, 455, 300, 575]}, {\"label\": \"renal tubule\", \"bbox_2d\": [320, 475, 440, 595]}, {\"label\": \"renal tubule\", \"bbox_2d\": [470, 485, 590, 615]}, {\"label\": \"renal tubule\", \"bbox_2d\": [620, 495, 740, 625]}, {\"label\": \"renal tubule\", \"bbox_2d\": [760, 505, 880, 635]}, {\"label\": \"renal tubule\", \"bbox_2d\": [95, 510, 215, 630]}, {\"label\": \"renal tubule\", \"bbox_2d\": [245, 525, 365, 645]}, {\"label\": \"renal tubule\", \"bbox_2d\": [395, 545, 515, 665]}, {\"label\": \"renal tubule\", \"bbox_2d\": [535, 555, 655, 675]}, {\"label\": \"renal tubule\", \"bbox_2d\": [685, 575, 805, 695]}, {\"label\": \"renal tubule\", \"bbox_2d\": [825, 585, 945, 705]}, {\"label\": \"renal tubule\", \"bbox_2d\": [40, 600, 160, 720]}, {\"label\": \"renal tubule\", \"bbox_2d\": [190, 625, 310, 745]}, {\"label\": \"renal tubule\", \"bbox_2d\": [340, 650, 460, 770]}, {\"label\": \"renal tubule\", \"bbox_2d\": [490, 670, 610, 790]}, {\"label\": \"renal tubule\", \"bbox_2d\": [640, 685, 760, 805]}, {\"label\": \"renal tubule\", \"bbox_2d\": [780, 705, 900, 825]}, {\"label\": \"renal tubule\", \"bbox_2d\": [70, 735, 190, 855]}, {\"label\": \"renal tubule\", \"bbox_2d\": [225, 750, 345, 870]}, {\"label\": \"renal tubule\", \"bbox_2d\": [375, 770, 495, 890]}, {\"label\": \"renal tubule\", \"bbox_2d\": [515, 785, 635, 905]}, {\"label\": \"renal tubule\", \"bbox_2d\": [665, 805, 785, 925]}, {\"label\": \"renal tubule\", \"bbox_2d\": [815, 825, 935, 945]}]",
+  "finish_reason": "stop",
+  "usage": {
+    "provider": "Parasail",
+    "served_model": "deepseek/deepseek-v4.1-flash",
+    "prompt_tokens": 781,
+    "completion_tokens": 10129,
+    "reasoning_tokens": 8641,
+    "cost_usd": 0.0123891
+  },
+  "generation": {
+    "created_at": "2026-10-07T08:36:18.203Z",
+    "model": "deepseek/deepseek-v4.1-flash-20260910",
+    "latency": 971,
+    "moderation_latency": null,
+    "generation_time": 34570,
+    "tokens_prompt": 1703,
+    "tokens_completion": 7633,
+    "native_tokens_prompt": 781,
+    "native_tokens_completion": 10129,
+    "native_tokens_reasoning": 8641,
+    "native_tokens_cached": 0,
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "service_tier": null,
+    "total_cost": 0.0123891,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "Parasail"
+  },
+  "publication_note": "Sanitized public record: final answer and numerical measurements preserved; account/session/request identifiers and reasoning text omitted."
+}

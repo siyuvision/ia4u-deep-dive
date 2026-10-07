@@ -1,0 +1,120 @@
+{
+  "model": {
+    "key": "glm-5.3-flash",
+    "label": "GLM 5.3 Flash",
+    "id": "z-ai/glm-5.3-flash",
+    "requested_as": "GLM 5.3 flash",
+    "enabled": true,
+    "note": "z-ai/glm-5.3-flashx is the faster variant and is not used."
+  },
+  "repeat": 1,
+  "created_utc": "2026-10-07T08:38:23.869630+00:00",
+  "request": {
+    "model": "z-ai/glm-5.3-flash",
+    "max_tokens": 32000,
+    "usage": {
+      "include": true
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are looking at a hematoxylin and eosin (H&E) stained histology image of kidney tissue.\n\nTask: find every renal tubule that lies completely inside the image and return one axis-aligned bounding box per tubule.\n\nRules:\n- A renal tubule appears as a ring-shaped or oval cross-section of epithelial cells around a lumen. The box must enclose the whole tubule including its epithelial wall.\n- Only box tubules that are fully visible. Skip any tubule that is cut off by the image border.\n- Do not box glomeruli, blood vessels, interstitial tissue, or single cells.\n- Coordinates are [x_min, y_min, x_max, y_max]. The origin is the top-left corner of the image, x increases to the right and y increases downward. Each value is an integer from 0 to 1000, normalized by the image width for x and by the image height for y, so [0, 0, 1000, 1000] is the whole image.\n\nReply with a single JSON array and nothing else, in exactly this form:\n[{\"label\": \"renal tubule\", \"bbox_2d\": [x_min, y_min, x_max, y_max]}, ...]\n"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "<inline image 276874 bytes sha256=01b301e5e28ca4b9808a6c1010463e88702fe3a148eb13814f62012f25040c59>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "call": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "object": "chat.completion",
+      "created": 1791362033,
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "Modal",
+      "usage": {
+        "prompt_tokens": 1347,
+        "completion_tokens": 32000,
+        "total_tokens": 33347,
+        "cost": 0.01620205,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.01620205,
+          "upstream_inference_prompt_cost": 0.00020205,
+          "upstream_inference_completions_cost": 0.016
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 20925,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "length",
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null
+          }
+        }
+      ]
+    },
+    "body_text": null,
+    "attempts": [
+      {
+        "status": 200,
+        "error": null,
+        "latency_s": 272.25
+      }
+    ],
+    "latency_s": 272.25
+  },
+  "text": "",
+  "finish_reason": "length",
+  "usage": {
+    "provider": "Modal",
+    "served_model": "z-ai/glm-5.3-flash",
+    "prompt_tokens": 1347,
+    "completion_tokens": 32000,
+    "reasoning_tokens": 20925,
+    "cost_usd": 0.01620205
+  },
+  "generation": {
+    "created_at": "2026-10-07T08:33:53.4Z",
+    "model": "z-ai/glm-5.3-flash-20260826",
+    "latency": 860,
+    "moderation_latency": null,
+    "generation_time": 270501,
+    "tokens_prompt": 1703,
+    "tokens_completion": 20925,
+    "native_tokens_prompt": 1347,
+    "native_tokens_completion": 32000,
+    "native_tokens_reasoning": 20925,
+    "native_tokens_cached": 0,
+    "finish_reason": "length",
+    "native_finish_reason": "length",
+    "service_tier": null,
+    "total_cost": 0.01620205,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "Modal"
+  },
+  "publication_note": "Sanitized public record: final answer and numerical measurements preserved; account/session/request identifiers and reasoning text omitted."
+}

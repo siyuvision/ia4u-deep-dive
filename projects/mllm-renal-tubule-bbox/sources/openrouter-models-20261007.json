@@ -1,0 +1,2113 @@
+{
+  "fetched": "2026-10-07",
+  "source": "https://openrouter.ai/api/v1/models",
+  "models": [
+    {
+      "key": "gpt-6.1-sol",
+      "enabled": true,
+      "id": "openai/gpt-6.1-sol",
+      "name": "OpenAI: GPT-6.1 Sol",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "pricing_usd_per_token": {
+        "prompt": "0.000002",
+        "completion": "0.00001"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790702882,
+      "endpoints": [
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000001",
+            "completion": "0.000005",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000005",
+            "input_cache_write": "0.00000125",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.000002",
+                "completion": "0.0000075",
+                "input_cache_read": "0.0000001",
+                "input_cache_write": "0.0000025"
+              }
+            ]
+          },
+          "uptime_last_30m": 84.30761236684853,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000002",
+            "completion": "0.00001",
+            "web_search": "0.01",
+            "input_cache_read": "0.0000001",
+            "input_cache_write": "0.0000025",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.000004",
+                "completion": "0.000015",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.000005"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.89067339979697,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000002",
+            "completion": "0.00001",
+            "web_search": "0.01",
+            "input_cache_read": "0.0000001",
+            "input_cache_write": "0.0000025",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.000004",
+                "completion": "0.000015",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.000005"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.94970991205368,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Amazon Bedrock",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000022",
+            "completion": "0.000011",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000011",
+            "input_cache_write": "0.00000275",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000044",
+                "completion": "0.0000165",
+                "input_cache_read": "0.00000022",
+                "input_cache_write": "0.0000055"
+              }
+            ]
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000022",
+            "completion": "0.000011",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000011",
+            "input_cache_write": "0.00000275",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000044",
+                "completion": "0.0000165",
+                "input_cache_read": "0.00000022",
+                "input_cache_write": "0.0000055"
+              }
+            ]
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000022",
+            "completion": "0.000011",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000011",
+            "input_cache_write": "0.00000275",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000044",
+                "completion": "0.0000165",
+                "input_cache_read": "0.00000022",
+                "input_cache_write": "0.0000055"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.9715882185813,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000004",
+            "completion": "0.00002",
+            "web_search": "0.01",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000005",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.000008",
+                "completion": "0.00003",
+                "input_cache_read": "0.0000004",
+                "input_cache_write": "0.00001"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.79508196721312,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "gpt-6-luna",
+      "enabled": true,
+      "id": "openai/gpt-6-luna",
+      "name": "OpenAI: GPT-6 Luna",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "pricing_usd_per_token": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100786,
+      "endpoints": [
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.00000005",
+            "completion": "0.00000025",
+            "web_search": "0.01",
+            "input_cache_read": "0.000000005",
+            "input_cache_write": "0.0000000625",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000001",
+                "completion": "0.000000375",
+                "input_cache_read": "0.00000001",
+                "input_cache_write": "0.000000125"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.60658505698608,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000001",
+            "completion": "0.0000005",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000001",
+            "input_cache_write": "0.000000125",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000002",
+                "completion": "0.00000075",
+                "input_cache_read": "0.00000002",
+                "input_cache_write": "0.00000025"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.97952128966726,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000001",
+            "completion": "0.0000005",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000001",
+            "input_cache_write": "0.000000125",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000002",
+                "completion": "0.00000075",
+                "input_cache_read": "0.00000002",
+                "input_cache_write": "0.00000025"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.98330500242837,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.00000011",
+            "completion": "0.00000055",
+            "web_search": "0.01",
+            "input_cache_read": "0.000000011",
+            "input_cache_write": "0.0000001375",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.00000022",
+                "completion": "0.000000825",
+                "input_cache_read": "0.000000022",
+                "input_cache_write": "0.000000275"
+              }
+            ]
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Azure",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.00000011",
+            "completion": "0.00000055",
+            "web_search": "0.01",
+            "input_cache_read": "0.000000011",
+            "input_cache_write": "0.0000001375",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.00000022",
+                "completion": "0.000000825",
+                "input_cache_read": "0.000000022",
+                "input_cache_write": "0.000000275"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.94273716358084,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Amazon Bedrock",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.00000011",
+            "completion": "0.00000055",
+            "web_search": "0.01",
+            "input_cache_read": "0.000000011",
+            "input_cache_write": "0.0000001375",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.00000022",
+                "completion": "0.000000825",
+                "input_cache_read": "0.000000022",
+                "input_cache_write": "0.000000275"
+              }
+            ]
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.0000002",
+            "completion": "0.000001",
+            "web_search": "0.01",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.0000004",
+                "completion": "0.0000015",
+                "input_cache_read": "0.00000004",
+                "input_cache_write": "0.0000005"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.81449275362318,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "gemini-3.8-flash",
+      "enabled": true,
+      "id": "google/gemini-3.8-flash",
+      "name": "Google: Gemini 3.8 Flash",
+      "input_modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "pricing_usd_per_token": {
+        "prompt": "0.00000075",
+        "completion": "0.00000375"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1788362056,
+      "endpoints": [
+        {
+          "provider_name": "Google AI Studio",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.000000375",
+            "completion": "0.000001875",
+            "image": "0.000000375",
+            "audio": "0.000000375",
+            "input_audio_cache": "0.0000000375",
+            "web_search": "0.014",
+            "internal_reasoning": "0.000001875",
+            "input_cache_read": "0.0000000375",
+            "input_cache_write": "0.0000000208333333333333",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.85101994040798,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Google",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.000000375",
+            "completion": "0.000001875",
+            "image": "0.000000375",
+            "audio": "0.000000375",
+            "input_audio_cache": "0.0000000375",
+            "web_search": "0.014",
+            "internal_reasoning": "0.000001875",
+            "input_cache_read": "0.0000000375",
+            "input_cache_write": "0.0000000208333333333333",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.85141158989599,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Google AI Studio",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.00000075",
+            "completion": "0.00000375",
+            "image": "0.00000075",
+            "audio": "0.00000075",
+            "input_audio_cache": "0.000000075",
+            "web_search": "0.014",
+            "internal_reasoning": "0.00000375",
+            "input_cache_read": "0.000000075",
+            "input_cache_write": "0.0000000416666666666667",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.7615397717595,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Google",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.00000075",
+            "completion": "0.00000375",
+            "image": "0.00000075",
+            "audio": "0.00000075",
+            "input_audio_cache": "0.000000075",
+            "web_search": "0.014",
+            "internal_reasoning": "0.00000375",
+            "input_cache_read": "0.000000075",
+            "input_cache_write": "0.0000000416666666666667",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.19595244599104,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Google AI Studio",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.00000135",
+            "completion": "0.00000675",
+            "image": "0.00000135",
+            "audio": "0.00000135",
+            "input_audio_cache": "0.000000135",
+            "web_search": "0.014",
+            "internal_reasoning": "0.00000675",
+            "input_cache_read": "0.000000135",
+            "input_cache_write": "0.000000075",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 98.62068965517241,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Google",
+          "quantization": "unknown",
+          "max_completion_tokens": 65536,
+          "pricing": {
+            "prompt": "0.00000135",
+            "completion": "0.00000675",
+            "image": "0.00000135",
+            "audio": "0.00000135",
+            "input_audio_cache": "0.000000135",
+            "web_search": "0.014",
+            "internal_reasoning": "0.00000675",
+            "input_cache_read": "0.000000135",
+            "input_cache_write": "0.000000075",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.69604863221885,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "qwen3.8-max",
+      "enabled": true,
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen: Qwen3.8 Max (0902)",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "pricing_usd_per_token": {
+        "prompt": "0.000002",
+        "completion": "0.000006"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1788469704,
+      "endpoints": [
+        {
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.000002",
+            "completion": "0.000006",
+            "input_cache_read": "0.00000025",
+            "input_cache_write": "0.0000025",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.48752228163993,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "qwen3.8-flash",
+      "enabled": true,
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen: Qwen3.8 Flash",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "pricing_usd_per_token": {
+        "prompt": "0.00000015",
+        "completion": "0.00000047"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1787773060,
+      "endpoints": [
+        {
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.00000047",
+            "input_cache_read": "0.000000016",
+            "input_cache_write": "0.0000002",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.7096529712535,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "deepseek-v4.1-flash",
+      "enabled": true,
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "pricing_usd_per_token": {
+        "prompt": "0.00000005",
+        "completion": "0.0000012"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1789021285,
+      "endpoints": [
+        {
+          "provider_name": "Relace",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000005",
+            "completion": "0.0000012",
+            "input_cache_read": "0.00000002",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.99177862710721,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Morph",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000068",
+            "completion": "0.000000424",
+            "input_cache_read": "0.000000009",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.86477015862361,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Sail Research",
+          "quantization": "fp4",
+          "max_completion_tokens": 384000,
+          "pricing": {
+            "prompt": "0.00000008",
+            "completion": "0.0000004",
+            "input_cache_read": "0.00000001",
+            "discount": 0
+          },
+          "uptime_last_30m": 88.02004351552714,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Decart",
+          "quantization": "fp4",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.00000009",
+            "completion": "0.00000018",
+            "input_cache_read": "0.000000018",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.47115465833262,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DekaLLM",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000012",
+            "completion": "0.0000024",
+            "input_cache_read": "0.000000005",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.7855787476281,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Wafer",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000135",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000059",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.92003198720512,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DeepInfra",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000014",
+            "completion": "0.00000042",
+            "input_cache_read": "0.0000000042",
+            "discount": 0.3
+          },
+          "uptime_last_30m": 99.96595225618114,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "StreamLake",
+          "quantization": "fp8",
+          "max_completion_tokens": 384000,
+          "pricing": {
+            "prompt": "0.000000141",
+            "completion": "0.000000564",
+            "input_cache_read": "0.00000000282",
+            "discount": 0.53
+          },
+          "uptime_last_30m": 99.53721348069908,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "AtlasCloud",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.000000141",
+            "completion": "0.000000564",
+            "input_cache_read": "0.0000000141",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.96730750978138,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "InferenceNet",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.000000145",
+            "completion": "0.0000003",
+            "input_cache_read": "0.000000035",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.67871485943776,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Ionstream",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000001782",
+            "completion": "0.00000115",
+            "input_cache_read": "0.0000000055",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.77980497011639,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DigitalOcean",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000018",
+            "completion": "0.00000072",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.98413274095567,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "GMICloud",
+          "quantization": "fp8",
+          "max_completion_tokens": 943717,
+          "pricing": {
+            "prompt": "0.00000018",
+            "completion": "0.00000072",
+            "input_cache_read": "0.0000000036",
+            "discount": 0.4
+          },
+          "uptime_last_30m": 92.45660881174899,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Novita",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.000000195",
+            "completion": "0.00000078",
+            "input_cache_read": "0.0000000039",
+            "discount": 0.35
+          },
+          "uptime_last_30m": 99.16350878986752,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "CoreWeave",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000002",
+            "completion": "0.00000065",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.51599723426992,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Phala",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000021",
+            "completion": "0.00000084",
+            "input_cache_read": "0.0000000042",
+            "discount": 0.3
+          },
+          "uptime_last_30m": 98.50207223209,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Makora",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.00000027",
+            "completion": "0.00000115",
+            "input_cache_read": "0.000000009",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Baidu",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.87333755541482,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "BaseTen",
+          "quantization": "fp8",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000007",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.00000003",
+            "discount": 0,
+            "overrides": [
+              {
+                "utc_start": 0,
+                "utc_end": 1400,
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000003"
+              },
+              {
+                "utc_start": 1400,
+                "utc_end": 0,
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000015"
+              }
+            ]
+          },
+          "uptime_last_30m": 97.57927037163314,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Together",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.99213064036351,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "SiliconFlow",
+          "quantization": "fp8",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.03011740684022,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Modal",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.96756932057727,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "BaseTen",
+          "quantization": "fp8",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000007",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Parasail",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.58975617069414,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 70.22274325908559,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Venice",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.0000000075",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.56586087814505,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DeepSeek",
+          "quantization": "unknown",
+          "max_completion_tokens": 393216,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006",
+            "discount": 0,
+            "overrides": [
+              {
+                "utc_days": [
+                  "saturday",
+                  "sunday"
+                ],
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000003"
+              },
+              {
+                "utc_start": 0,
+                "utc_end": 100,
+                "utc_days": [
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday"
+                ],
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000003"
+              },
+              {
+                "utc_start": 100,
+                "utc_end": 400,
+                "utc_days": [
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday"
+                ],
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.000000006"
+              },
+              {
+                "utc_start": 400,
+                "utc_end": 600,
+                "utc_days": [
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday"
+                ],
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000003"
+              },
+              {
+                "utc_start": 600,
+                "utc_end": 1000,
+                "utc_days": [
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday"
+                ],
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.000000006"
+              },
+              {
+                "utc_start": 1000,
+                "utc_end": 0,
+                "utc_days": [
+                  "monday",
+                  "tuesday",
+                  "wednesday",
+                  "thursday",
+                  "friday"
+                ],
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000003"
+              }
+            ]
+          },
+          "uptime_last_30m": 99.99642302346497,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000045",
+            "completion": "0.0000018",
+            "input_cache_read": "0.000000009",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.49679645145392,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "glm-5.3-flash",
+      "enabled": true,
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "context_length": 1048576,
+      "max_completion_tokens": 943717,
+      "pricing_usd_per_token": {
+        "prompt": "0.00000015",
+        "completion": "0.0000005"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1787752741,
+      "endpoints": [
+        {
+          "provider_name": "Relace",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.0000000244",
+            "completion": "0.0000005",
+            "input_cache_read": "0.0000000244",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.83803263642376,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "OpenInference",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000003058",
+            "completion": "0.0000006875",
+            "input_cache_read": "0.00000003058",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.8294388538291,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Sail Research",
+          "quantization": "fp4",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.000000045",
+            "completion": "0.0000006",
+            "input_cache_read": "0.0000000285",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.88304093567251,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Sail Research",
+          "quantization": "fp4",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.000000045",
+            "completion": "0.0000006",
+            "input_cache_read": "0.0000000285",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.50683387346766,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DeepInfra",
+          "quantization": "fp4",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.000000075",
+            "completion": "0.00000025",
+            "input_cache_read": "0.000000015",
+            "discount": 0.5
+          },
+          "uptime_last_30m": 99.847850893876,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "InferenceNet",
+          "quantization": "fp4",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.00000008",
+            "completion": "0.0000005",
+            "input_cache_read": "0.000000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.80296588198694,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Novita",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.000000084",
+            "completion": "0.00000028",
+            "input_cache_read": "0.0000000168",
+            "discount": 0.44
+          },
+          "uptime_last_30m": 99.81941107114606,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Decart",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000087",
+            "completion": "0.00000029",
+            "input_cache_read": "0.0000000174",
+            "discount": 0.42
+          },
+          "uptime_last_30m": 99.88680426771995,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "StreamLake",
+          "quantization": "fp8",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000000087",
+            "completion": "0.00000029",
+            "input_cache_read": "0.0000000174",
+            "discount": 0.42
+          },
+          "uptime_last_30m": 98.1213737600599,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "GMICloud",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000009",
+            "completion": "0.0000003",
+            "input_cache_read": "0.000000018",
+            "discount": 0.4
+          },
+          "uptime_last_30m": 99.4685696932888,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DekaLLM",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000001",
+            "completion": "0.000001",
+            "input_cache_read": "0.00000004",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.6415770609319,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Near AI",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000105",
+            "completion": "0.00000035",
+            "input_cache_read": "0.0000000245",
+            "discount": 0.3
+          },
+          "uptime_last_30m": 98.44645358461734,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Phala",
+          "quantization": "nvfp4",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.0000001125",
+            "completion": "0.000000375",
+            "input_cache_read": "0.0000000225",
+            "discount": 0.25
+          },
+          "uptime_last_30m": 99.70046428036542,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Wafer",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000013",
+            "completion": "0.0000005",
+            "input_cache_read": "0.000000125",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Modal",
+          "quantization": "nvfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "BaseTen",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.73753280839895,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Crusoe",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "CoreWeave",
+          "quantization": "nvfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000005",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.10397295012679,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "AtlasCloud",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.86348213338988,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Friendli",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.8995811097722,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "SiliconFlow",
+          "quantization": "fp8",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.33373874969594,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DigitalOcean",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.69730414329655,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Together",
+          "quantization": "unknown",
+          "max_completion_tokens": 943717,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.6556675177526,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Parasail",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.53144317579712,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "BaseTen",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.98137455764574,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Venice",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 97.93008279668814,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Z.AI",
+          "quantization": "fp8",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000015",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.85915982751425,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Morph",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000016",
+            "completion": "0.000000646",
+            "input_cache_read": "0.000000017",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.64911673016972,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Inceptron",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000225",
+            "completion": "0.0000006",
+            "input_cache_read": "0.00000009",
+            "discount": 0
+          },
+          "uptime_last_30m": 96.03315571343991,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000225",
+            "completion": "0.00000075",
+            "input_cache_read": "0.000000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.81185324553151,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Cloudflare",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.000001",
+            "input_cache_read": "0.00000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.01670146137788,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Reka",
+          "quantization": "unknown",
+          "max_completion_tokens": 235929,
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.000002",
+            "input_cache_read": "0.00000006",
+            "discount": 0
+          },
+          "uptime_last_30m": 96.27659574468085,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    },
+    {
+      "key": "kimi-k3",
+      "enabled": true,
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "pricing_usd_per_token": {
+        "prompt": "0.00000062",
+        "completion": "0.000015"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1784215858,
+      "endpoints": [
+        {
+          "provider_name": "Relace",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000061",
+            "completion": "0.000013",
+            "input_cache_read": "0.00000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.93503681247293,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "InferenceNet",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000062",
+            "completion": "0.000015",
+            "input_cache_read": "0.00000043",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Morph",
+          "quantization": "fp8",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000000622",
+            "completion": "0.000011593",
+            "input_cache_read": "0.000000278",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Sail Research",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000084",
+            "completion": "0.0000135",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.9655172413793,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "AkashML",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000012",
+            "completion": "0.000014",
+            "input_cache_read": "0.0000012",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Wafer",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000015",
+            "completion": "0.000015",
+            "input_cache_read": "0.00000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.85133795837463,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Makora",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000153",
+            "completion": "0.00001275",
+            "input_cache_read": "0.000000204",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.59753506162346,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Phala",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000195",
+            "completion": "0.00000975",
+            "input_cache_read": "0.000000195",
+            "discount": 0.35
+          },
+          "uptime_last_30m": 99.63144963144963,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Decart",
+          "quantization": "mxfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000225",
+            "completion": "0.00001125",
+            "input_cache_read": "0.000000225",
+            "discount": 0.25
+          },
+          "uptime_last_30m": 99.75093399750934,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DigitalOcean",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000255",
+            "completion": "0.00001295",
+            "input_cache_read": "0.000000255",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Parasail",
+          "quantization": "fp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000026",
+            "completion": "0.000013",
+            "input_cache_read": "0.00000026",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.44641275465014,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Together",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000027",
+            "completion": "0.0000135",
+            "input_cache_read": "0.00000027",
+            "discount": 0
+          },
+          "uptime_last_30m": 98.12889812889813,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Wafer",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000028",
+            "completion": "0.000014",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.5609220636663,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "DeepInfra",
+          "quantization": "mxfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.00000285",
+            "completion": "0.00001425",
+            "input_cache_read": "0.000000285",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.8775367389783,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Amazon Bedrock",
+          "quantization": "unknown",
+          "max_completion_tokens": 128000,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "input_cache_write": "0.00000375",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.75018735948039,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Chutes",
+          "quantization": "mxfp4",
+          "max_completion_tokens": 65535,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Modal",
+          "quantization": "mxfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.81192129629629,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "BaseTen",
+          "quantization": "fp8",
+          "max_completion_tokens": 262144,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.27007299270073,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Moonshot AI",
+          "quantization": "mxfp4",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.93986770895971,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "max_completion_tokens": 131072,
+          "pricing": {
+            "prompt": "0.00000345",
+            "completion": "0.00001725",
+            "input_cache_read": "0.000000345",
+            "discount": 0
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "InferenceNet",
+          "quantization": "fp4",
+          "max_completion_tokens": 225000,
+          "pricing": {
+            "prompt": "0.0000035",
+            "completion": "0.000015",
+            "input_cache_read": "0.00000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 99.80506822612085,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000045",
+            "completion": "0.0000225",
+            "input_cache_read": "0.00000045",
+            "discount": 0
+          },
+          "uptime_last_30m": 100,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        },
+        {
+          "provider_name": "Fireworks",
+          "quantization": "unknown",
+          "max_completion_tokens": 943718,
+          "pricing": {
+            "prompt": "0.0000045",
+            "completion": "0.0000225",
+            "input_cache_read": "0.00000045",
+            "discount": 0
+          },
+          "uptime_last_30m": null,
+          "latency_last_30m": null,
+          "throughput_last_30m": null
+        }
+      ]
+    }
+  ]
+}

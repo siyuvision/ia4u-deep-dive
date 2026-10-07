@@ -1,0 +1,12 @@
+You are looking at a hematoxylin and eosin (H&E) stained histology image of kidney tissue.
+
+Task: find every renal tubule that lies completely inside the image and return one axis-aligned bounding box per tubule.
+
+Rules:
+- A renal tubule appears as a ring-shaped or oval cross-section of epithelial cells around a lumen. The box must enclose the whole tubule including its epithelial wall.
+- Only box tubules that are fully visible. Skip any tubule that is cut off by the image border.
+- Do not box glomeruli, blood vessels, interstitial tissue, or single cells.
+- Coordinates are [y_min, x_min, y_max, x_max]. The origin is the top-left corner of the image, x increases to the right and y increases downward. Each value is an integer from 0 to 1000, normalized by the image height for y and by the image width for x, so [0, 0, 1000, 1000] is the whole image.
+
+Reply with a single JSON array and nothing else, in exactly this form:
+[{"label": "renal tubule", "box_2d": [y_min, x_min, y_max, x_max]}, ...]

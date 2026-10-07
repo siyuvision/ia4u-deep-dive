@@ -1,0 +1,2 @@
+# Preserve frozen file bytes so release-manifest SHA256 values survive checkout.
+* -text
